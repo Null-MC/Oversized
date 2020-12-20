@@ -1,6 +1,8 @@
 height:
-  scale: 0.15
-  edge-fade-size: 160
+  scale: 0.25
+  edge-fade-size: 900
+smooth:
+  scale: 0.5
 porosity:
   value: 100
 parts:
