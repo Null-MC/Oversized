@@ -1,11 +1,8 @@
 height:
   scale: 0.15
   edge-fade-size: 160
-rough: {}
-metal:
-  value: 22
 porosity:
-  value: 0
+  value: 100
 parts:
 - name: 1
   left: 0
