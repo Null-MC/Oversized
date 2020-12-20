@@ -1,7 +1,7 @@
 edition: Java
 format: 6
-description: Hi-Res Bullshit
-tags: Lab-1.1 256x
+description: CTM Expirement Pack
+tags: Lab-1.1 128x
 texture-size: 128
 auto-generate-occlusion: false
 encoding:

@@ -12,14 +12,30 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: docker pull null511/pixelgraph
+      - name: Publish Lab1.1-512x
+        run: |
+          docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
+            publish -p "//content/src/lab11-512x.pack.yml" -z "//content/Oversized-Lab11-512x.zip"
       - name: Publish Lab1.1-256x
         run: |
           docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
             publish -p "//content/src/lab11-256x.pack.yml" -z "//content/Oversized-Lab11-256x.zip"
+      - name: Publish Lab1.1-128x
+        run: |
+          docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
+            publish -p "//content/src/lab13-128x.pack.yml" -z "//content/Oversized-Lab11-128x.zip"
+      - name: Publish Lab1.3-512x
+        run: |
+          docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
+            publish -p "//content/src/lab13-512x.pack.yml" -z "//content/Oversized-Lab13-512x.zip"
       - name: Publish Lab1.3-256x
         run: |
           docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
             publish -p "//content/src/lab13-256x.pack.yml" -z "//content/Oversized-Lab13-256x.zip"
+      - name: Publish Lab1.3-128x
+        run: |
+          docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
+            publish -p "//content/src/lab13-128x.pack.yml" -z "//content/Oversized-Lab13-128x.zip"
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -29,6 +45,15 @@ jobs:
           tag_name: v${{ github.event.inputs.version }}
           release_name: Release ${{ github.event.inputs.version }}
           draft: true
+      - name: Upload Oversized-Lab11-512x
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./Oversized-Lab11-512x.zip
+          asset_name: Oversized-Lab11-512x.zip
+          asset_content_type: application/zip
       - name: Upload Oversized-Lab11-256x
         uses: actions/upload-release-asset@v1
         env:
@@ -38,6 +63,24 @@ jobs:
           asset_path: ./Oversized-Lab11-256x.zip
           asset_name: Oversized-Lab11-256x.zip
           asset_content_type: application/zip
+      - name: Upload Oversized-Lab11-128x
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./Oversized-Lab11-128x.zip
+          asset_name: Oversized-Lab11-128x.zip
+          asset_content_type: application/zip
+      - name: Upload Oversized-Lab13-512x
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./Oversized-Lab13-512x.zip
+          asset_name: Oversized-Lab13-512x.zip
+          asset_content_type: application/zip
       - name: Upload Oversized-Lab13-256x
         uses: actions/upload-release-asset@v1
         env:
@@ -46,4 +89,13 @@ jobs:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./Oversized-Lab13-256x.zip
           asset_name: Oversized-Lab13-256x.zip
+          asset_content_type: application/zip
+      - name: Upload Oversized-Lab13-128x
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./Oversized-Lab13-128x.zip
+          asset_name: Oversized-Lab13-128x.zip
           asset_content_type: application/zip

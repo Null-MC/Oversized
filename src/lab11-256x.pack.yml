@@ -1,11 +1,12 @@
 edition: Java
 format: 6
-description: Hi-Res Bullshit
+description: CTM Expirement Pack
 tags: Lab-1.1 256x
 texture-size: 256
 auto-generate-occlusion: false
 encoding:
   format: lab-1.1
+  sampler: average
   alpha: {}
   diffuse-red: {}
   diffuse-green: {}
