@@ -1,6 +1,9 @@
 # Oversized
 A Minecraft Resource Pack that uses CTM to allow textures too big for a 1m block. All textures used in this pack are free and public domain (not by me).
 
+<img src="https://github.com/null511/MCRP-Oversized/raw/main/media/title.png" alt="Preview"></img>
+_Preview of Oversized using [BSL shaders](https://bitslablab.com/bslshaders)._
+
 ## Try It
 You can use this resource pack as-is in either Lab-1.1 or Lab-1.3 encoding, downsized to 256x. You can find them under _Assets_ in the [Releases](https://github.com/null511/MCRP-Textureless/releases) section.
 
