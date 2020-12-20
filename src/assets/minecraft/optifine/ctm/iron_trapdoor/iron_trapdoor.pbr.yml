@@ -1,0 +1,34 @@
+alpha:
+  input:
+    texture: alpha
+    color: red
+height:
+  scale: 0.25
+occlusion:
+  quality: 0.04
+  z-bias: 0.5
+  z-scale: 10
+  steps: 64
+porosity:
+  value: 200
+parts:
+- name: 1
+  left: 0
+  top: 0
+  width: 512
+  height: 512
+- name: 2
+  left: 512
+  top: 0
+  width: 512
+  height: 512
+- name: 3
+  left: 0
+  top: 512
+  width: 512
+  height: 512
+- name: 4
+  left: 512
+  top: 512
+  width: 512
+  height: 512

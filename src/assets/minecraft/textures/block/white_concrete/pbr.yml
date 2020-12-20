@@ -1,0 +1,7 @@
+height:
+  scale: 0.1
+occlusion:
+  z-scale: 60
+  steps: 32
+porosity:
+  value: 180

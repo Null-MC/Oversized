@@ -1,0 +1,34 @@
+height:
+  scale: 0.12
+occlusion:
+  quality: 0.04
+  z-bias: 0.5
+  z-scale: 6
+  steps: 16
+smooth:
+  scale: 0.8
+metal:
+  value: 230
+porosity:
+  value: 0
+parts:
+- name: 1
+  left: 0
+  top: 0
+  width: 512
+  height: 512
+- name: 2
+  left: 512
+  top: 0
+  width: 512
+  height: 512
+- name: 3
+  left: 0
+  top: 512
+  width: 512
+  height: 512
+- name: 4
+  left: 512
+  top: 512
+  width: 512
+  height: 512

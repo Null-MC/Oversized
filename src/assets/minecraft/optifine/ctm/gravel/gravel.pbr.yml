@@ -1,0 +1,28 @@
+alpha: {}
+height:
+  scale: 0.25
+smooth:
+  scale: 0.5
+porosity:
+  value: 120
+parts:
+- name: 1
+  left: 0
+  top: 0
+  width: 512
+  height: 512
+- name: 2
+  left: 512
+  top: 0
+  width: 512
+  height: 512
+- name: 3
+  left: 0
+  top: 512
+  width: 512
+  height: 512
+- name: 4
+  left: 512
+  top: 512
+  width: 512
+  height: 512
