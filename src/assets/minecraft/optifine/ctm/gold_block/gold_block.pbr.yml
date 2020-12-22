@@ -1,5 +1,8 @@
+wrap-x: true
+wrap-y: true
 height:
   scale: 0.2
+normal: {}
 occlusion:
   quality: 0.04
   z-bias: 0.5

@@ -1,5 +1,6 @@
 height:
   scale: 0.2
+  edge-fade-size-x: 40
 normal:
   curve-x: 90
 smooth:
