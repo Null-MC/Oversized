@@ -44,7 +44,7 @@ jobs:
         with:
           tag_name: v${{ github.event.inputs.version }}
           release_name: Release ${{ github.event.inputs.version }}
-          draft: true
+          #draft: true
       - name: Upload Oversized-Lab11-512x
         uses: actions/upload-release-asset@v1
         env:

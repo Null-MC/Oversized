@@ -1,6 +1,15 @@
 # Oversized
 A Minecraft Resource Pack that uses CTM to allow textures too big for a 1m block. All textures used in this pack are free and public domain (not by me).
 
+**Requirements:**  
+- [Optifine](https://optifine.net/home).
+- Options > Video > Quality > Connected Textures: must be Fast or Fancy.
+- A shader supporting PBR materials, ie:
+  + BSL, Complementary
+    - use Lab 1.3, enable pom, disable pom self-shadows
+  + Seus Renewed/PTGI
+    - use Lab 1.1
+
 <img src="https://github.com/null511/MCRP-Oversized/raw/main/media/title.png" alt="Preview"></img>
 
 ## Try It
