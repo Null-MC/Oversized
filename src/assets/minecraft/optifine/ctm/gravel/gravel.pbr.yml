@@ -2,10 +2,10 @@ wrap-x: true
 wrap-y: true
 alpha: {}
 height:
-  shift: -65
-  scale: 0.25
-  edge-fade-size-x: 400
-  edge-fade-size-y: 400
+  shift: -60
+  scale: 0.12
+  edge-fade-size-x: 600
+  edge-fade-size-y: 600
 smooth:
   scale: 0.5
 porosity:
