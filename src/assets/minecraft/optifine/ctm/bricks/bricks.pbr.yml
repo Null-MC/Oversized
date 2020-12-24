@@ -1,7 +1,8 @@
-wrap-x: true
-wrap-y: true
 height:
+  shift: -60
   scale: 0.25
+  edge-fade-size-x: 600
+  edge-fade-size-y: 600
 occlusion:
   quality: 0.04
   z-bias: 0.5

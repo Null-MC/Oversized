@@ -1,0 +1,32 @@
+height:
+  shift: -20
+  scale: 0.3
+  edge-fade-size-x: 600
+  edge-fade-size-y: 600
+occlusion:
+  scale: 0.5
+metal: {}
+sss:
+  value: 0
+  scale: 0.2
+parts:
+- name: 1
+  left: 0
+  top: 0
+  width: 512
+  height: 512
+- name: 2
+  left: 512
+  top: 0
+  width: 512
+  height: 512
+- name: 3
+  left: 0
+  top: 512
+  width: 512
+  height: 512
+- name: 4
+  left: 512
+  top: 512
+  width: 512
+  height: 512

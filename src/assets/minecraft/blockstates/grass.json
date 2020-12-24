@@ -6,6 +6,12 @@
       },
       {
         "model": "block/grass2"
+      },
+      {
+        "model": "block/grass3"
+      },
+      {
+        "model": "block/grass4"
       }
     ]
   }
