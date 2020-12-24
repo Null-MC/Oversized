@@ -2,8 +2,7 @@ wrap-x: true
 wrap-y: true
 height:
   scale: 0.08
-metal:
-  value: 52
+metal: {}
 porosity:
   value: 0
 parts:

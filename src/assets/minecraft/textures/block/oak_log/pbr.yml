@@ -6,7 +6,9 @@ height:
   edge-fade-size-x: 500
 normal:
   curve-x: 90
+occlusion:
+  scale: 0.35
 smooth:
-  scale: 0.4
+  scale: 0.2
 porosity:
   value: 160

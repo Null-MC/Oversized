@@ -1,8 +1,12 @@
 height:
-  shift: -60
-  scale: 0.15
+  shift: -100
+  scale: 0.2
   edge-fade-size-x: 800
   edge-fade-size-y: 800
+occlusion:
+  scale: 0.15
+smooth:
+  scale: 0.6
 porosity:
   value: 240
 parts:
@@ -22,32 +26,67 @@ parts:
   width: 512
   height: 512
 - name: 4
-  left: 0
-  top: 512
+  left: 1536
+  top: 0
   width: 512
   height: 512
 - name: 5
-  left: 512
+  left: 0
   top: 512
   width: 512
   height: 512
 - name: 6
-  left: 1024
+  left: 512
   top: 512
   width: 512
   height: 512
 - name: 7
+  left: 1024
+  top: 512
+  width: 512
+  height: 512
+- name: 8
+  left: 1536
+  top: 512
+  width: 512
+  height: 512
+- name: 9
   left: 0
   top: 1024
   width: 512
   height: 512
-- name: 8
+- name: 10
   left: 512
   top: 1024
   width: 512
   height: 512
-- name: 9
+- name: 11
   left: 1024
   top: 1024
+  width: 512
+  height: 512
+- name: 12
+  left: 1536
+  top: 1024
+  width: 512
+  height: 512
+- name: 13
+  left: 0
+  top: 1536
+  width: 512
+  height: 512
+- name: 14
+  left: 512
+  top: 1536
+  width: 512
+  height: 512
+- name: 15
+  left: 1024
+  top: 1536
+  width: 512
+  height: 512
+- name: 16
+  left: 1536
+  top: 1536
   width: 512
   height: 512

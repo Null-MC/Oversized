@@ -1,0 +1,10 @@
+wrap-x: false
+wrap-y: true
+height:
+  shift: -120
+  scale: 0.1
+  edge-fade-size-x: 600
+normal:
+  curve-x: 90
+smooth:
+  scale: 0.3

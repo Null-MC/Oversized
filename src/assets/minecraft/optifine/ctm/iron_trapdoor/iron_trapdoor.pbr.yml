@@ -5,12 +5,14 @@ alpha:
     texture: alpha
     color: red
 height:
-  scale: 0.25
+  scale: 0.18
 occlusion:
   quality: 0.04
   z-bias: 0.5
   z-scale: 10
   steps: 64
+smooth:
+  scale: 1.4
 porosity:
   value: 200
 parts:

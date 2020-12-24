@@ -1,9 +1,0 @@
-height:
-  scale: 0.4
-occlusion:
-  quality: 0.04
-  z-bias: 0.5
-  z-scale: 4
-  steps: 64
-porosity:
-  value: 200

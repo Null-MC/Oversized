@@ -1,7 +1,8 @@
 height:
   scale: 0.1
-metal:
-  value: 120
+occlusion:
+  scale: 0.3
+metal: {}
 porosity:
   value: 0
 sss:

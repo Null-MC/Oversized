@@ -1,12 +1,6 @@
-wrap-x: true
-wrap-y: true
-albedo:
-  scale-red: 0.7
-  scale-green: 0.53
-  scale-blue: 0.5
 height:
-  shift: -20
-  scale: 0.3
+  shift: -30
+  scale: 0.75
   edge-fade-size-x: 700
   edge-fade-size-y: 700
 smooth:
@@ -15,7 +9,7 @@ rough: {}
 metal: {}
 porosity: {}
 sss:
-  value: 60
+  value: 20
 parts:
 - name: 1
   left: 0
