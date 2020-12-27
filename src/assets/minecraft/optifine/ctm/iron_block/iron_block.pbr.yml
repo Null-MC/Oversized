@@ -1,8 +1,9 @@
 wrap-x: true
 wrap-y: true
 height:
-  scale: 0.12
+  scale: 0.06
 occlusion:
+  scale: 0.1
   quality: 0.04
   z-bias: 0.5
   z-scale: 6

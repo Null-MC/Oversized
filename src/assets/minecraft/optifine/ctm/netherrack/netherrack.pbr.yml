@@ -1,8 +1,8 @@
 height:
-  shift: -30
-  scale: 0.75
-  edge-fade-size-x: 700
-  edge-fade-size-y: 700
+  shift: -40
+  scale: 0.9
+  edge-fade-size-x: 900
+  edge-fade-size-y: 900
 smooth:
   scale: 0.7
 rough: {}
