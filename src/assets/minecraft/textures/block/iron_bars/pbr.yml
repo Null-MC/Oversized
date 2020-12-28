@@ -1,0 +1,16 @@
+alpha:
+  input:
+    texture: alpha
+    color: red
+height:
+  scale: 0.3
+occlusion:
+  scale: 0.4
+  quality: 0.08
+  z-bias: 1
+  z-scale: 10
+  steps: 16
+smooth:
+  scale: 0.6
+metal:
+  value: 230

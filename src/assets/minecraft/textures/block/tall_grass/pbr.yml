@@ -1,0 +1,22 @@
+wrap-x: false
+wrap-y: false
+alpha:
+  input:
+    texture: alpha
+    color: red
+occlusion: {}
+smooth:
+  scale: 0.5
+sss:
+  value: 180
+parts:
+- name: tall_grass_top
+  left: 0
+  top: 0
+  width: 512
+  height: 512
+- name: tall_grass_bottom
+  left: 0
+  top: 512
+  width: 512
+  height: 512

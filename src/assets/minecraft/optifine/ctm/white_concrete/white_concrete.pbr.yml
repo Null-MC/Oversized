@@ -1,6 +1,7 @@
 height:
   scale: 0.1
 occlusion:
+  scale: 0.3
   quality: 0.04
   z-bias: 0.5
   z-scale: 6

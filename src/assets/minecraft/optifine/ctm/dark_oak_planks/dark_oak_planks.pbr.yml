@@ -3,6 +3,7 @@ wrap-y: true
 height:
   scale: 0.1
 occlusion:
+  scale: 0.2
   z-scale: 60
   steps: 32
 porosity:

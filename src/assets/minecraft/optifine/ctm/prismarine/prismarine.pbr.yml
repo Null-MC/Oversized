@@ -1,6 +1,11 @@
 height:
   shift: -20
   scale: 0.04
+occlusion:
+  scale: 0.2
+  quality: 0.05
+  z-scale: 8
+  steps: 16
 porosity:
   value: 0
 parts:

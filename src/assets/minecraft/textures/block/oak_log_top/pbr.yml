@@ -1,0 +1,15 @@
+height:
+  shift: -65
+  scale: 0.08
+  edge-fade-size-x: 400
+  edge-fade-size-y: 400
+occlusion:
+  scale: 0.35
+  quality: 0.05
+  z-bias: 1
+  z-scale: 8
+  steps: 16
+smooth:
+  scale: 0.2
+porosity:
+  value: 100

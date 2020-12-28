@@ -3,6 +3,8 @@ height:
   scale: 0.5
   edge-fade-size-x: 800
   edge-fade-size-y: 800
+occlusion:
+  scale: 0.5
 porosity:
   value: 40
 parts:

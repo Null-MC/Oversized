@@ -4,9 +4,9 @@ height:
   scale: 0.2
 normal: {}
 occlusion:
-  quality: 0.04
-  z-bias: 0.5
-  z-scale: 6
+  scale: 0.4
+  quality: 0.08
+  z-scale: 8
   steps: 16
 metal:
   value: 231

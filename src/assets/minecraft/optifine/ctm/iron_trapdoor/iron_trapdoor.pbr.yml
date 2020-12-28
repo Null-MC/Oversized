@@ -7,10 +7,10 @@ alpha:
 height:
   scale: 0.18
 occlusion:
+  scale: 0.7
   quality: 0.04
-  z-bias: 0.5
   z-scale: 10
-  steps: 64
+  steps: 16
 smooth:
   scale: 1.4
 porosity:

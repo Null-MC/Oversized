@@ -4,6 +4,7 @@ height:
   edge-fade-size-x: 600
   edge-fade-size-y: 600
 occlusion:
+  scale: 0.5
   quality: 0.04
   z-bias: 0.5
   z-scale: 10

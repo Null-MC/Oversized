@@ -4,7 +4,7 @@ height:
   edge-fade-size-x: 900
   edge-fade-size-y: 900
 occlusion:
-  scale: 0.5
+  scale: 0.3
 smooth:
   scale: 0.5
 parts:
