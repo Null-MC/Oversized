@@ -1,12 +1,12 @@
 edition: Java
 format: 6
 description: CTM Expirement Pack
-tags: Lab-1.1 128x
-texture-size: 128
-texture-scale: 0.25
+tags: Lab-1.3 64x
+texture-size: 64
+texture-scale: 0.125
 auto-generate-occlusion: false
 encoding:
-  format: lab-1.1
+  format: lab-1.3
   sampler: average
   alpha: {}
   diffuse-red: {}

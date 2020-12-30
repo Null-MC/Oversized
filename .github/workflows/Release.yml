@@ -52,6 +52,21 @@ jobs:
         with:
           name: Lab1.1-128x
           path: Oversized-Lab11-128x.zip
+  publish-lab11-64x:
+    name: Publish Lab1.1-64x
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: docker pull null511/pixelgraph
+      - name: Publish Lab1.1-64x
+        run: |
+          docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
+            publish -p "//content/src/lab11-64x.pack.yml" -z "//content/Oversized-Lab11-64x.zip"
+      - name: Upload Lab1.1-64x
+        uses: actions/upload-artifact@v2
+        with:
+          name: Lab1.1-64x
+          path: Oversized-Lab11-64x.zip
   publish-lab13-512x:
     name: Publish Lab1.3-512x
     runs-on: ubuntu-latest
@@ -97,44 +112,59 @@ jobs:
         with:
           name: Lab1.3-128x
           path: Oversized-Lab13-128x.zip
-
-
+  publish-lab13-64x:
+    name: Publish Lab1.3-64x
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: docker pull null511/pixelgraph
+      - name: Publish Lab1.3-64x
+        run: |
+          docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
+            publish -p "//content/src/lab13-64x.pack.yml" -z "//content/Oversized-Lab13-64x.zip"
+      - name: Upload Lab1.3-64x
+        uses: actions/upload-artifact@v2
+        with:
+          name: Lab1.3-64x
+          path: Oversized-Lab13-64x.zip
   publish:
     name: Create-Release
     runs-on: ubuntu-latest
-    needs: [publish-lab11-512x, publish-lab11-256x, publish-lab11-128x, publish-lab13-512x, publish-lab13-256x, publish-lab13-128x]
+    needs: [publish-lab11-512x, publish-lab11-256x, publish-lab11-128x, publish-lab11-64x, publish-lab13-512x, publish-lab13-256x, publish-lab13-128x, publish-lab13-64x]
     steps:
       - uses: actions/checkout@v2
       - name: Download Lab1.1-512x
         uses: actions/download-artifact@v2
         with:
           name: Lab1.1-512x
-          #path: win-cli-x64
       - name: Download Lab1.1-256x
         uses: actions/download-artifact@v2
         with:
           name: Lab1.1-256x
-          #path: win-cli-x64
       - name: Download Lab1.1-128x
         uses: actions/download-artifact@v2
         with:
           name: Lab1.1-128x
-          #path: win-cli-x64
+      - name: Download Lab1.1-64x
+        uses: actions/download-artifact@v2
+        with:
+          name: Lab1.1-64x
       - name: Download Lab1.3-512x
         uses: actions/download-artifact@v2
         with:
           name: Lab1.3-512x
-          #path: win-cli-x64
       - name: Download Lab1.3-256x
         uses: actions/download-artifact@v2
         with:
           name: Lab1.3-256x
-          #path: win-cli-x64
       - name: Download Lab1.3-128x
         uses: actions/download-artifact@v2
         with:
           name: Lab1.3-128x
-          #path: win-cli-x64
+      - name: Download Lab1.3-64x
+        uses: actions/download-artifact@v2
+        with:
+          name: Lab1.3-64x
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -171,6 +201,15 @@ jobs:
           asset_path: ./Oversized-Lab11-128x.zip
           asset_name: Oversized-Lab11-128x.zip
           asset_content_type: application/zip
+      - name: Upload Oversized-Lab11-64x
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./Oversized-Lab11-64x.zip
+          asset_name: Oversized-Lab11-64x.zip
+          asset_content_type: application/zip
       - name: Upload Oversized-Lab13-512x
         uses: actions/upload-release-asset@v1
         env:
@@ -197,4 +236,13 @@ jobs:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./Oversized-Lab13-128x.zip
           asset_name: Oversized-Lab13-128x.zip
+          asset_content_type: application/zip
+      - name: Upload Oversized-Lab13-64x
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./Oversized-Lab13-64x.zip
+          asset_name: Oversized-Lab13-64x.zip
           asset_content_type: application/zip
