@@ -1,0 +1,34 @@
+height:
+  shift: -80
+  scale: 0.3
+  edge-fade-size-x: 800
+  edge-fade-size-y: 800
+occlusion:
+  scale: 0.5
+  quality: 0.04
+  z-bias: 0.5
+  z-scale: 10
+  steps: 64
+porosity:
+  value: 0
+parts:
+- name: 1
+  left: 0
+  top: 0
+  width: 512
+  height: 512
+- name: 2
+  left: 512
+  top: 0
+  width: 512
+  height: 512
+- name: 3
+  left: 0
+  top: 512
+  width: 512
+  height: 512
+- name: 4
+  left: 512
+  top: 512
+  width: 512
+  height: 512

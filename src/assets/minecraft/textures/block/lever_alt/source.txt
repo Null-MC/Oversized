@@ -1,0 +1,3 @@
+metal:   https://freepbr.com/materials/grimy-metal/
+plastic: https://cc0textures.com/view?id=Plastic007
+light:   https://www.cgtrader.com/items/1951068/download-page

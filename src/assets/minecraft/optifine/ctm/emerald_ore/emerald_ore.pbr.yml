@@ -6,9 +6,7 @@ height:
 occlusion:
   scale: 0.5
 metal: {}
-sss:
-  value: 0
-  scale: 0.2
+sss: {}
 parts:
 - name: 1
   left: 0

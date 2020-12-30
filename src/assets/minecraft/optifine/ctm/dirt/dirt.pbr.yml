@@ -2,9 +2,9 @@ wrap-x: true
 wrap-y: true
 height:
   shift: -80
-  scale: 0.2
-  edge-fade-size-x: 900
-  edge-fade-size-y: 900
+  scale: 0.3
+  edge-fade-size-x: 1300
+  edge-fade-size-y: 1300
 occlusion:
   scale: 0.2
 smooth:

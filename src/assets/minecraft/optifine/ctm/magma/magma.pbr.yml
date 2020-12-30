@@ -1,19 +1,19 @@
 albedo: {}
 height:
-  shift: -90
-  scale: 0.36
-  edge-fade-size-x: 900
-  edge-fade-size-y: 900
+  shift: -32
+  scale: 0.4
+  edge-fade-size-x: 800
+  edge-fade-size-y: 800
 occlusion:
+  scale: 0.2
   quality: 0.04
   z-scale: 10
   steps: 16
-smooth:
-  scale: 0.1
+smooth: {}
 porosity:
   value: 0
 emissive:
-  scale: 0.4
+  scale: 0.6
 parts:
 - name: 1
   left: 0

@@ -1,0 +1,38 @@
+height:
+  shift: -40
+  scale: 0.2
+  edge-fade-size-x: 600
+  edge-fade-size-y: 600
+normal:
+  curve-x: 40
+  curve-y: 40
+occlusion:
+  scale: 0.3
+  quality: 0.04
+  z-bias: 0.5
+  z-scale: 10
+  steps: 64
+porosity: {}
+sss:
+  value: 60
+parts:
+- name: 1
+  left: 0
+  top: 0
+  width: 512
+  height: 512
+- name: 2
+  left: 512
+  top: 0
+  width: 512
+  height: 512
+- name: 3
+  left: 0
+  top: 512
+  width: 512
+  height: 512
+- name: 4
+  left: 512
+  top: 512
+  width: 512
+  height: 512

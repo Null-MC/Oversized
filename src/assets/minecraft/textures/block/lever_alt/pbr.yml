@@ -1,0 +1,16 @@
+wrap-x: false
+wrap-y: false
+alpha:
+  input:
+    texture: alpha
+    color: red
+height: {}
+normal:
+  strength: 3
+occlusion:
+  value: 0
+smooth: {}
+metal: {}
+porosity:
+  value: 0
+emissive: {}
