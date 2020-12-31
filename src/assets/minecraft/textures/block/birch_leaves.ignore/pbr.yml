@@ -1,0 +1,8 @@
+alpha:
+  input:
+    texture: alpha
+    color: red
+height:
+  scale: 0.3
+sss:
+  value: 100

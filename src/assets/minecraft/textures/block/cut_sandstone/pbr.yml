@@ -1,0 +1,7 @@
+height:
+  shift: -62
+  scale: 0.2
+  edge-fade-size-x: 100
+  edge-fade-size-y: 100
+porosity:
+  value: 180

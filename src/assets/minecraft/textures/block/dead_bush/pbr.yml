@@ -1,10 +1,14 @@
+wrap-x: false
+wrap-y: false
 alpha:
   input:
     texture: alpha
     color: red
 height:
   value: 0
+occlusion:
+  scale: 0.2
 smooth:
-  scale: 0.3
+  scale: 0.05
 porosity:
-  value: 60
+  value: 120

@@ -7,7 +7,7 @@ height:
   edge-fade-size-x: 600
   edge-fade-size-y: 600
 occlusion:
-  scale: 0.5
+  scale: 0.8
 smooth:
   scale: 0.5
 porosity:

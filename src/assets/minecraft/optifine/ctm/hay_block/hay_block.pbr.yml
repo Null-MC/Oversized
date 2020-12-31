@@ -3,15 +3,15 @@ height:
   scale: 0.2
   edge-fade-size-x: 600
   edge-fade-size-y: 600
-normal:
-  curve-x: 40
-  curve-y: 40
+normal: {}
 occlusion:
-  scale: 0.3
+  scale: 0.6
   quality: 0.04
   z-bias: 0.5
   z-scale: 10
   steps: 64
+smooth:
+  scale: 0.3
 porosity: {}
 sss:
   value: 60
