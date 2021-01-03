@@ -1,5 +1,5 @@
 # Oversized
-A Minecraft Resource Pack that uses CTM to allow textures too big for a 1m block. All textures used in this pack are free and public domain (not by me).
+A Minecraft Resource Pack that uses CTM to allow textures too big for a 1m block. It is primarily made with free and public domain textures, but most have been heavily modified to fit minecrafts style.
 
 <img src="https://github.com/null511/MCRP-Oversized/raw/main/media/badlands.png" alt="Preview" width="240" height="160"></img>
 <img src="https://github.com/null511/MCRP-Oversized/raw/main/media/forest-rays.png" alt="Preview" width="240" height="160"></img>
