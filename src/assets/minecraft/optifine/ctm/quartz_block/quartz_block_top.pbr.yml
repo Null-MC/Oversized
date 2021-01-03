@@ -1,7 +1,8 @@
 height:
   scale: 0.08
-metal:
-  value: 200
+metal: {}
+f0:
+  scale: 0.78
 porosity:
   value: 0
 parts:

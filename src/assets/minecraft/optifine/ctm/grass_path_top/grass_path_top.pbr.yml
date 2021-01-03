@@ -1,11 +1,10 @@
-height:
-  value: 0
+height: {}
 occlusion:
   scale: 0.2
 smooth:
   scale: 0.1
 porosity:
-  value: 160
+  value: 0.63
 parts:
 - name: 1
   left: 0

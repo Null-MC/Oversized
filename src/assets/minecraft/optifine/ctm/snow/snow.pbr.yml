@@ -1,5 +1,5 @@
 height:
-  shift: -90
+  shift: -0.35
   scale: 0.3
   edge-fade-size-x: 800
   edge-fade-size-y: 800
@@ -8,7 +8,7 @@ occlusion:
 metal: {}
 porosity: {}
 sss:
-  value: 40
+  value: 0.16
 parts:
 - name: 1
   left: 0

@@ -1,6 +1,6 @@
 albedo: {}
 height:
-  shift: -32
+  shift: -0.13
   scale: 0.4
   edge-fade-size-x: 800
   edge-fade-size-y: 800

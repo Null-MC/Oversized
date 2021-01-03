@@ -1,0 +1,14 @@
+edition: Java
+format: 6
+description: CTM Expirement Pack
+tags: LegacyPBR 64x
+texture-size: 64
+texture-scale: 0.125
+auto-generate-occlusion: false
+encoding:
+  format: legacy
+  sampler: average
+  smooth:
+    sampler: nearest
+  rough:
+    sampler: nearest

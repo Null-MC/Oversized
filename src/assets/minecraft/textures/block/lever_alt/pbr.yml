@@ -8,7 +8,10 @@ height: {}
 normal:
   strength: 3
 occlusion:
-  value: 0
+  quality: 0.04
+  z-bias: 1
+  z-scale: 5
+  steps: 16
 smooth: {}
 metal: {}
 porosity:

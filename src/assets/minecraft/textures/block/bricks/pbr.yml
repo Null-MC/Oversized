@@ -6,4 +6,4 @@ occlusion:
   z-scale: 6
   steps: 32
 porosity:
-  value: 200
+  value: 0.78

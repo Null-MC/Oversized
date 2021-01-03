@@ -3,7 +3,7 @@ alpha:
     texture: alpha
     color: red
 height:
-  shift: -10
+  shift: -0.04
   scale: 0.4
   edge-fade-size-x: 1200
   edge-fade-size-y: 1200
@@ -14,10 +14,11 @@ occlusion:
   z-scale: 10
   steps: 8
 smooth: {}
-metal:
-  value: 200
+metal: {}
+f0:
+  value: 0.78
 sss:
-  value: 100
+  value: 0.39
 parts:
 - name: 1
   left: 0

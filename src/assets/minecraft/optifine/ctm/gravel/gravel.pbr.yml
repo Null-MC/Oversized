@@ -2,7 +2,7 @@ wrap-x: true
 wrap-y: true
 alpha: {}
 height:
-  shift: -60
+  shift: -0.4
   scale: 0.12
   edge-fade-size-x: 600
   edge-fade-size-y: 600
@@ -10,8 +10,7 @@ occlusion:
   scale: 0.8
 smooth:
   scale: 0.5
-porosity:
-  value: 120
+porosity: {}
 parts:
 - name: 1
   left: 0

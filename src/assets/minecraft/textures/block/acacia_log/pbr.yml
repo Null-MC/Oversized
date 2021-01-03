@@ -10,4 +10,4 @@ occlusion:
 smooth:
   scale: 0.4
 porosity:
-  value: 100
+  value: 0.39

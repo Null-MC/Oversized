@@ -1,14 +1,14 @@
 height:
-  shift: -40
+  shift: -0.16
   scale: 0.4
   edge-fade-size-x: 1000
   edge-fade-size-y: 1000
 occlusion:
-  scale: 0.2
+  scale: 0.6
 smooth:
   scale: 0.4
 porosity:
-  value: 40
+  value: 0.16
 parts:
 - name: 1
   left: 0

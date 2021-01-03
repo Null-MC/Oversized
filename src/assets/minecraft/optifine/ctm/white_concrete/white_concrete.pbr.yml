@@ -9,7 +9,7 @@ occlusion:
 smooth:
   scale: 0.4
 porosity:
-  value: 180
+  value: 0.71
 parts:
 - name: 1
   left: 0

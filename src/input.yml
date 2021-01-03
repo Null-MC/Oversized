@@ -16,7 +16,12 @@ normal-z: {}
 specular: {}
 smooth: {}
 rough: {}
-metal: {}
+metal:
+  min-value: 230
+  range-min: 230
+f0:
+  max-value: 0.898
+  range-max: 229
 porosity: {}
 sss: {}
 emissive: {}

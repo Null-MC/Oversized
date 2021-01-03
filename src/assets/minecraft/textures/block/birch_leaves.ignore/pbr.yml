@@ -1,3 +1,5 @@
+wrap-x: false
+wrap-y: false
 alpha:
   input:
     texture: alpha
@@ -5,4 +7,4 @@ alpha:
 height:
   scale: 0.3
 sss:
-  value: 100
+  value: 0.39

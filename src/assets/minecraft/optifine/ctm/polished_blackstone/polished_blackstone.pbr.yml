@@ -1,7 +1,7 @@
 wrap-x: true
 wrap-y: true
 height:
-  shift: -20
+  shift: -0.08
   scale: 0.08
   edge-fade-size-x: 200
   edge-fade-size-y: 200

@@ -1,5 +1,5 @@
 height:
-  shift: -80
+  shift: -0.31
   scale: 0.17
   edge-fade-size-x: 1000
   edge-fade-size-y: 1000
@@ -9,7 +9,7 @@ smooth:
   scale: 1.5
 porosity: {}
 sss:
-  value: 30
+  value: 0.12
 parts:
 - name: 1
   left: 0

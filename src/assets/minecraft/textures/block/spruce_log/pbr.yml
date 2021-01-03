@@ -1,7 +1,7 @@
 wrap-x: false
 wrap-y: true
 height:
-  shift: -40
+  shift: -0.16
   scale: 0.08
   edge-fade-size-x: 600
 normal:
@@ -11,4 +11,4 @@ occlusion:
 smooth:
   scale: 0.4
 porosity:
-  value: 160
+  value: 0.63

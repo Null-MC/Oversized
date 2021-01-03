@@ -1,7 +1,10 @@
 wrap-x: true
 wrap-y: true
 height:
-  scale: 0.2
+  shift: -0.2
+  scale: 0.1
+  edge-fade-size-x: 400
+  edge-fade-size-y: 400
 normal: {}
 occlusion:
   scale: 0.4

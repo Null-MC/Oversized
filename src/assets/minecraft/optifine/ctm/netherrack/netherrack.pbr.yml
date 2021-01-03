@@ -1,5 +1,5 @@
 height:
-  shift: -40
+  shift: -0.16
   scale: 0.9
   edge-fade-size-x: 900
   edge-fade-size-y: 900
@@ -9,7 +9,7 @@ rough: {}
 metal: {}
 porosity: {}
 sss:
-  value: 20
+  value: 0.08
 parts:
 - name: 1
   left: 0

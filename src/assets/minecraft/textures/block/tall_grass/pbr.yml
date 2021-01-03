@@ -8,7 +8,7 @@ occlusion: {}
 smooth:
   scale: 0.5
 sss:
-  value: 180
+  value: 0.71
 parts:
 - name: tall_grass_top
   left: 0

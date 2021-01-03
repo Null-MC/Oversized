@@ -1,13 +1,13 @@
-height:
-  value: 0
+height: {}
 normal:
   value-x: 127
   value-y: 127
   value-z: 255
 occlusion:
   value: 0
-metal:
-  value: 80
+metal: {}
+f0:
+  value: 0.3
 porosity:
   value: 0
 parts:

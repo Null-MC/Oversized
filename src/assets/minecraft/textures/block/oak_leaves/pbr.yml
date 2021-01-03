@@ -1,0 +1,20 @@
+wrap-x: false
+wrap-y: false
+alpha:
+  input:
+    texture: alpha
+    color: red
+height:
+  value: 0
+normal:
+  strength: 4
+  curve-x: 40
+  curve-y: 40
+occlusion:
+  quality: 0.08
+  z-bias: 1
+  z-scale: 14
+  steps: 28
+smooth:
+  scale: 0.2
+sss: {}

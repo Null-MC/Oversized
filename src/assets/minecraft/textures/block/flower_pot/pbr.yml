@@ -7,4 +7,4 @@ height:
 smooth:
   scale: 0.5
 porosity:
-  value: 140
+  value: 0.55

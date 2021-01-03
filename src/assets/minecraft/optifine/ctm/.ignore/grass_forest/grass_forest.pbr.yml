@@ -1,0 +1,8 @@
+wrap-x: false
+wrap-y: false
+alpha:
+  input:
+    texture: alpha
+    color: red
+sss:
+  value: 0.71

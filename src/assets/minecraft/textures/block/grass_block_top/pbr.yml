@@ -1,0 +1,9 @@
+height:
+  shift: -0.14
+  scale: 0.1
+occlusion:
+  scale: 0.2
+smooth:
+  value: 0.05
+sss:
+  value: 0.24

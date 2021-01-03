@@ -1,5 +1,5 @@
 height:
-  shift: -20
+  shift: -0.08
   scale: 0.04
 occlusion:
   scale: 0.2

@@ -8,4 +8,4 @@ normal:
 smooth:
   scale: 0.4
 porosity:
-  value: 160
+  value: 0.63

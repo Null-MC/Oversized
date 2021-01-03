@@ -1,0 +1,6 @@
+{
+   "parent": "block/leaves_alt",
+    "textures": {
+        "all": "block/oak_leaves"
+    }
+}
