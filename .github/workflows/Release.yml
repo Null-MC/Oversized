@@ -46,7 +46,7 @@ jobs:
       - name: Publish LegacyPBR-128x
         run: |
           docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
-            publish -p "//content/src/LegacyPBR-128x.pack.yml" -z "//content/Oversized-LegacyPBR-128x.zip"
+            publish -p "//content/src/legacy-128x.pack.yml" -z "//content/Oversized-LegacyPBR-128x.zip"
       - name: Upload LegacyPBR-128x
         uses: actions/upload-artifact@v2
         with:
