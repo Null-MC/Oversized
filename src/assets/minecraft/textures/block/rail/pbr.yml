@@ -1,0 +1,18 @@
+wrap-x: true
+wrap-y: false
+alpha:
+  input:
+    texture: alpha
+    color: red
+height:
+  shift: -0.24
+  scale: 0.32
+normal:
+  strength: 2.4
+occlusion:
+  quality: 0.06
+  z-bias: 1
+  z-scale: 16
+  steps: 8
+smooth:
+  scale: 0.68
