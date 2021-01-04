@@ -6,8 +6,7 @@ normal:
 occlusion:
   value: 0
 metal: {}
-f0:
-  value: 0.3
+f0: {}
 porosity:
   value: 0
 parts:
