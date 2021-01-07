@@ -1,0 +1,10 @@
+alpha:
+  input:
+    texture: alpha
+    color: red
+height:
+  scale: 0.16
+f0:
+  scale: 0.08
+porosity:
+  value: 0
