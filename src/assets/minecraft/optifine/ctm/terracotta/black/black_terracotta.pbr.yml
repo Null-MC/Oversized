@@ -1,7 +1,7 @@
 height:
   texture: ../terracotta_h.png
-  shift: -0.48
-  scale: 0.2
+  shift: -0.17
+  scale: 0.3
   edge-fade-size-x: 1200
   edge-fade-size-y: 1200
 normal:

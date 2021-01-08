@@ -1,9 +1,8 @@
 wrap-y: false
 height:
   shift: -0.1
-  scale: 0.1
-  edge-fade-size-x: 200
-  edge-fade-size-y: 200
+  scale: 0.04
+  edge-fade-size-y: 100
 normal:
   strength: 0.8
 occlusion:

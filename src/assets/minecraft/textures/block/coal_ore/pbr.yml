@@ -1,0 +1,13 @@
+height:
+  scale: 0.3
+occlusion:
+  quality: 0.05
+  z-bias: 0.2
+  z-scale: 16
+  steps: 16
+smooth:
+  value: 0.3
+f0:
+  value: 0.7
+porosity:
+  value: 140
