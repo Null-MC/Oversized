@@ -1,0 +1,20 @@
+wrap-x: false
+wrap-y: false
+alpha:
+  input:
+    texture: alpha
+    color: red
+height:
+  value: 0
+occlusion:
+  quality: 0.05
+  z-bias: 1
+  z-scale: 2
+  steps: 8
+smooth:
+  scale: 0.1
+f0:
+  value: 0.02
+porosity: {}
+sss:
+  value: 60

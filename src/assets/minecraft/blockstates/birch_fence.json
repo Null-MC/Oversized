@@ -2,7 +2,7 @@
   "multipart": [
     {
       "apply": {
-        "model": "minecraft:block/birch_fence_post"
+        "model": "block/birch_fence_post"
       }
     },
     {
@@ -10,7 +10,7 @@
         "north": "true"
       },
       "apply": {
-        "model": "minecraft:block/birch_fence_side_north",
+        "model": "block/birch_fence_side_north",
         "uvlock": true
       }
     },
@@ -19,7 +19,7 @@
         "east": "true"
       },
       "apply": {
-        "model": "minecraft:block/birch_fence_side_west",
+        "model": "block/birch_fence_side_west",
         "y": 180,
         "uvlock": true
       }
@@ -29,7 +29,7 @@
         "south": "true"
       },
       "apply": {
-        "model": "minecraft:block/birch_fence_side_north",
+        "model": "block/birch_fence_side_north",
         "y": 180,
         "uvlock": true
       }
@@ -39,7 +39,7 @@
         "west": "true"
       },
       "apply": {
-        "model": "minecraft:block/birch_fence_side_west",
+        "model": "block/birch_fence_side_west",
         "uvlock": true
       }
     }

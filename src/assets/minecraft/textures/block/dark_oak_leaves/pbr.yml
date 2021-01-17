@@ -7,7 +7,7 @@ alpha:
 height:
   value: 0
 normal:
-  strength: 4
+  strength: 1
   curve-x: 40
   curve-y: 40
 occlusion:
@@ -17,4 +17,6 @@ occlusion:
   steps: 28
 smooth:
   scale: 0.2
+f0:
+  value: 0.02
 sss: {}

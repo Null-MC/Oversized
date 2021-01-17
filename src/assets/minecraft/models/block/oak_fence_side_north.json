@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/fence_side_north",
+  "parent": "block/fence_side_north",
   "textures": {
-    "texture": "minecraft:block/stripped_oak_log"
+    "texture": "block/stripped_oak_log"
   }
 }

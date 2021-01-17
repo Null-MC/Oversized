@@ -15,6 +15,8 @@ occlusion:
   steps: 8
 smooth: {}
 metal: {}
+f0:
+  value: 0.017
 sss:
   value: 1
 parts:

@@ -15,5 +15,7 @@ occlusion:
   steps: 20
 smooth:
   scale: 0.2
+f0:
+  value: 0.02
 sss:
   scale: 0.8

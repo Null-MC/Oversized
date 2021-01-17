@@ -1,0 +1,16 @@
+wrap-x: false
+height:
+  shift: -0.45
+  scale: 0.2
+  edge-fade-size-x: 600
+normal:
+  curve-x: 90
+occlusion:
+  quality: 0.06
+  z-bias: 0.5
+  z-scale: 4
+  steps: 8
+smooth:
+  scale: 0.1
+porosity:
+  value: 0.4

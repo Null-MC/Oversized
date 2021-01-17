@@ -1,5 +1,5 @@
 {
-   "parent": "block/leaves_alt",
+   "parent": "block/leaves_alt_LQ",
     "textures": {
         "all": "block/birch_leaves"
     }

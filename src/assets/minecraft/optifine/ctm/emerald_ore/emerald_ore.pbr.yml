@@ -6,6 +6,8 @@ height:
 occlusion:
   scale: 0.5
 metal: {}
+f0:
+  value: 0.05
 sss: {}
 parts:
 - name: 1
