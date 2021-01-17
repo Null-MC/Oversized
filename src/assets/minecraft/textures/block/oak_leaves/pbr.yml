@@ -7,13 +7,12 @@ alpha:
 height:
   value: 0
 normal:
-  strength: 4
-  curve-x: 40
-  curve-y: 40
+  strength: 2
 occlusion:
+  scale: 0.2
   quality: 0.08
   z-bias: 1
-  z-scale: 14
+  z-scale: 8
   steps: 28
 smooth:
   scale: 0.2

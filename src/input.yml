@@ -14,11 +14,10 @@ normal-x: {}
 normal-y: {}
 normal-z: {}
 specular: {}
-smooth: {}
+smooth:
+  perceptual: true
 rough: {}
-metal:
-  min-value: 230
-  range-min: 230
+metal: {}
 f0:
   max-value: 0.898
   range-max: 229

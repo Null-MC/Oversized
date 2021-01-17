@@ -4,6 +4,8 @@ alpha:
   input:
     texture: alpha
     color: red
+    sampler: nearest
+  scale: 0.7
 height:
   value: 0
 occlusion:
@@ -12,9 +14,9 @@ occlusion:
   z-scale: 2
   steps: 8
 smooth:
-  scale: 0.1
+  scale: 0.05
 f0:
-  value: 0.02
+  value: 0.06
 porosity: {}
 sss:
   value: 60

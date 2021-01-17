@@ -4,6 +4,8 @@ alpha:
   input:
     texture: alpha
     color: red
+    sampler: nearest
+  scale: 0.7
 height:
   value: 0
 normal:
