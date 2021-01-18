@@ -14,5 +14,4 @@ occlusion:
   z-bias: 1
   z-scale: 16
   steps: 8
-smooth:
-  scale: 0.68
+smooth: {}

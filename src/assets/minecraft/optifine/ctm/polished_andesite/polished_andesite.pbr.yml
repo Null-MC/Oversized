@@ -5,6 +5,8 @@ normal:
   value-z: 255
 smooth:
   scale: 0.8
+f0:
+  value: 0.067
 porosity:
   value: 0
 parts:

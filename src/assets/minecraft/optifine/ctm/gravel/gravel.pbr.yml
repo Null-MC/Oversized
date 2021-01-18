@@ -9,7 +9,9 @@ height:
 occlusion:
   scale: 0.8
 smooth:
-  scale: 0.5
+  scale: 0.8
+f0:
+  value: 0.05
 porosity: {}
 parts:
 - name: 1
