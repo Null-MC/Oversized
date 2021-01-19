@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "": [{
+		"model": "block/dandelion_2"
+    },{
+		"model": "block/dandelion_2",
+        "y": 90
+    },{
+		"model": "block/dandelion_2",
+        "y": 180
+    },{
+		"model": "block/dandelion_2",
+        "y": 270
+    }]
+  }
+}

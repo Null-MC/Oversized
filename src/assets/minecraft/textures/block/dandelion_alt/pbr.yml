@@ -1,0 +1,24 @@
+wrap-x: false
+wrap-y: false
+alpha:
+  input:
+    texture: alpha
+    color: red
+    sampler: nearest
+  scale: 0.7
+height:
+  value: 0
+normal:
+  strength: 2
+  noise: 2
+occlusion:
+  quality: 0.05
+  z-bias: 0.5
+  z-scale: 4
+  steps: 6
+smooth:
+  value: 0.2
+f0:
+  value: 0.04
+sss:
+  value: 0.6
