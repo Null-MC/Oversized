@@ -9,7 +9,7 @@ alpha:
 height:
   value: 0
 normal:
-  strength: 2
+  strength: 1
   noise: 2
 occlusion:
   quality: 0.05

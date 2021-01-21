@@ -1,0 +1,15 @@
+height:
+  scale: 0.08
+normal:
+  noise: 1.4
+occlusion:
+  value: 0
+  quality: 0.08
+  z-bias: 0.1
+  z-scale: 1
+  steps: 4
+smooth:
+  scale: 1.6
+metal: {}
+f0: {}
+porosity: {}

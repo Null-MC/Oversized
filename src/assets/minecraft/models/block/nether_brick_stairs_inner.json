@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "block/nether_bricks_top",
+    "top": "block/nether_bricks_top",
+    "side": "block/nether_bricks"
+  }
+}
