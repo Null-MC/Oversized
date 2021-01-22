@@ -8,10 +8,10 @@ height:
   shift: -0.24
   scale: 0.32
 normal:
-  strength: 2.4
+  strength: 2
 occlusion:
-  quality: 0.06
-  z-bias: 1
-  z-scale: 16
-  steps: 8
+  quality: 0.08
+  z-bias: 0
+  z-scale: 8
+  steps: 12
 smooth: {}
