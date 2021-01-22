@@ -5,10 +5,11 @@ height:
   edge-fade-size-y: 1200
 occlusion:
   scale: 0.45
-smooth:
-  scale: 0.6
+smooth: {}
+f0:
+  value: 0.06
 porosity:
-  value: 0.94
+  value: 0.8
 parts:
 - name: 1
   left: 0
