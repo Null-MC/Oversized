@@ -1,7 +1,12 @@
 height:
-  shift: -0.24
-  scale: 0.2
-  edge-fade-size-x: 100
-  edge-fade-size-y: 100
+  shift: -0.1
+  scale: 0.26
+occlusion:
+  quality: 0.1
+  z-bias: 0
+  z-scale: 12
+  steps: 16
+f0:
+  value: 0.06
 porosity:
   value: 0.71

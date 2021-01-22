@@ -8,6 +8,8 @@ occlusion:
   z-bias: 1
   z-scale: 10
   steps: 20
+f0:
+  value: 0.03
 porosity:
   value: 0.78
 parts:

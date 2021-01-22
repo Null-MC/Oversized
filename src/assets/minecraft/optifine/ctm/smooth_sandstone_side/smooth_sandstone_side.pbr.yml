@@ -8,7 +8,8 @@ occlusion:
   z-bias: 0.1
   z-scale: 12
   steps: 24
-smooth: {}
+smooth:
+  scale: 0.7
 f0:
   value: 0.03
 porosity: {}
