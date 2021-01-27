@@ -1,6 +1,6 @@
 {
   "parent": "block/fence_side_north",
   "textures": {
-    "texture": "block/stripped_oak_log"
+    "texture": "block/stripped_oak_wood"
   }
 }

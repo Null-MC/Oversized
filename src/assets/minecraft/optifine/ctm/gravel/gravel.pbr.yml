@@ -2,16 +2,19 @@ wrap-x: true
 wrap-y: true
 alpha: {}
 height:
-  shift: -0.4
+  shift: -0.56
   scale: 0.12
   edge-fade-size-x: 600
   edge-fade-size-y: 600
 occlusion:
-  scale: 0.8
+  quality: 0.08
+  z-bias: 0
+  z-scale: 12
+  steps: 16
 smooth:
-  scale: 0.8
+  scale: 0.28
 f0:
-  value: 0.05
+  value: 0.07
 porosity: {}
 parts:
 - name: 1

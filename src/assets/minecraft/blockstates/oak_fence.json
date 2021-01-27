@@ -1,47 +1,28 @@
 {
   "multipart": [
     {
-      "apply": {
-        "model": "block/oak_fence_post"
-      }
+      "apply": [
+      	{"model": "block/oak_fence_post"},
+  	  	{"model": "block/oak_fence_post", "y": 90},
+  	  	{"model": "block/oak_fence_post", "y": 180},
+  	  	{"model": "block/oak_fence_post", "y": 270}
+  	  ]
     },
     {
-      "when": {
-        "north": "true"
-      },
-      "apply": {
-        "model": "block/oak_fence_side_north",
-        "uvlock": true
-      }
+      "when": {"north": "true"},
+      "apply": {"model": "block/oak_fence_side_north"}
     },
     {
-      "when": {
-        "east": "true"
-      },
-      "apply": {
-        "model": "block/oak_fence_side_west",
-        "y": 180,
-        "uvlock": true
-      }
+      "when": {"east": "true"},
+      "apply": {"model": "block/oak_fence_side_east"}
     },
     {
-      "when": {
-        "south": "true"
-      },
-      "apply": {
-        "model": "block/oak_fence_side_north",
-        "y": 180,
-        "uvlock": true
-      }
+      "when": {"south": "true"},
+      "apply": {"model": "block/oak_fence_side_south"}
     },
     {
-      "when": {
-        "west": "true"
-      },
-      "apply": {
-        "model": "block/oak_fence_side_west",
-        "uvlock": true
-      }
+      "when": {"west": "true"},
+      "apply": {"model": "block/oak_fence_side_west"}
     }
   ]
 }

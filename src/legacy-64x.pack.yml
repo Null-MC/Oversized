@@ -8,6 +8,8 @@ auto-generate-occlusion: false
 encoding:
   format: legacy
   sampler: average
+  height:
+    max-value: 2
   smooth:
     sampler: nearest
   rough:

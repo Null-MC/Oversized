@@ -5,11 +5,13 @@ height:
   edge-fade-size-x: 800
   edge-fade-size-y: 800
 occlusion:
-  scale: 0.2
-  quality: 0.04
-  z-scale: 10
-  steps: 16
+  quality: 0.08
+  z-bias: 0.3
+  z-scale: 8
+  steps: 24
 smooth: {}
+f0:
+  value: 0.08
 porosity:
   value: 0
 emissive:

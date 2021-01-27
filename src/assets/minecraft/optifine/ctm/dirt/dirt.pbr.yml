@@ -8,7 +8,9 @@ height:
 occlusion:
   scale: 0.2
 smooth:
-  scale: 0.2
+  scale: 0.1
+f0:
+  value: 0.03
 porosity:
   value: 0.78
 parts:
