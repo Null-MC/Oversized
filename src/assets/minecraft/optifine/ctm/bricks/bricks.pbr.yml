@@ -6,7 +6,6 @@ height:
 normal:
   strength: 1
   noise: 3
-  curve-x: 90
   filter: sobel3
 occlusion:
   scale: 0.5

@@ -9,5 +9,5 @@ occlusion:
   z-scale: 4
   steps: 16
 smooth:
-  scale: 0.3
+  scale: 0.8
 f0: {}

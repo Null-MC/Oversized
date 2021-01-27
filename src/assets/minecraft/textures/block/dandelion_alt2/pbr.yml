@@ -6,19 +6,24 @@ alpha:
     color: red
     sampler: nearest
   scale: 0.7
+albedo:
+  scale-red: 0.6
+  scale-green: 0.6
+  scale-blue: 0.6
 height:
   value: 0
 normal:
-  strength: 1
+  strength: 2
   noise: 2
+  filter: sobel3
 occlusion:
-  quality: 0.05
-  z-bias: 0.5
+  quality: 0.08
+  z-bias: 0.1
   z-scale: 4
-  steps: 6
+  steps: 12
 smooth:
-  value: 0.2
+  value: 0.05
 f0:
   value: 0.04
 sss:
-  value: 0.6
+  scale: 0.1
