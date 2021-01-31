@@ -11,6 +11,8 @@ occlusion:
   quality: 0.08
   z-scale: 8
   steps: 16
+smooth:
+  scale: 1.2
 metal:
   value: 231
 porosity:

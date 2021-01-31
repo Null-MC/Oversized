@@ -2,25 +2,6 @@ format: raw
 alpha:
   texture: albedo
   color: alpha
-diffuse-red: {}
-diffuse-green: {}
-diffuse-blue: {}
-albedo-red: {}
-albedo-green: {}
-albedo-blue: {}
-height: {}
-occlusion: {}
-normal-x: {}
-normal-y: {}
-normal-z: {}
-specular: {}
-smooth:
-  perceptual: true
-rough: {}
-metal: {}
 f0:
-  max-value: 0.898
+  max-value: 0.9
   range-max: 229
-porosity: {}
-sss: {}
-emissive: {}

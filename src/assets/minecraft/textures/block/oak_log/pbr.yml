@@ -10,6 +10,6 @@ normal:
 occlusion:
   scale: 0.35
 smooth:
-  scale: 0.2
+  scale: 0.08
 porosity:
   value: 0.63

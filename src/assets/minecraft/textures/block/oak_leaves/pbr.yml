@@ -17,5 +17,6 @@ occlusion:
 smooth:
   scale: 0.2
 f0:
-  value: 0.02
-sss: {}
+  value: 0.04
+sss:
+  scale: 0.2

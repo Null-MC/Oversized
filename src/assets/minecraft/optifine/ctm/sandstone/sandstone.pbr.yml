@@ -1,16 +1,17 @@
 height:
   shift: -0.1
-  scale: 0.4
+  scale: 0.3
   edge-fade-size-x: 300
   edge-fade-size-y: 300
 normal:
-  strength: 4
+  strength: 6
   noise: 2
+  filter: variance
 occlusion:
-  quality: 0.04
-  z-bias: 1
-  z-scale: 80
-  steps: 12
+  quality: 0.08
+  z-bias: 0.1
+  z-scale: 60
+  steps: 24
 smooth: {}
 f0:
   value: 0.06

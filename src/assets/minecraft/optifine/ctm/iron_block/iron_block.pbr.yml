@@ -8,8 +8,7 @@ occlusion:
   z-bias: 0.5
   z-scale: 6
   steps: 16
-smooth:
-  scale: 0.8
+smooth: {}
 metal:
   value: 230
 porosity:

@@ -7,9 +7,9 @@ alpha:
     sampler: nearest
   scale: 0.7
 albedo:
-  scale-red: 0.6
-  scale-green: 0.6
-  scale-blue: 0.6
+  scale-red: 0.85
+  scale-green: 0.85
+  scale-blue: 0.85
 height:
   value: 0
 normal:

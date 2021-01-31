@@ -10,8 +10,9 @@ occlusion:
   quality: 0.08
   z-scale: 4
   steps: 12
-smooth: {}
+smooth:
+  scale: 0.2
 f0:
-  value: 0.039
+  value: 0.04
 porosity:
   value: 0.35

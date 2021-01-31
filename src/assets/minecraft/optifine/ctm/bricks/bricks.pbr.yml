@@ -8,11 +8,10 @@ normal:
   noise: 3
   filter: sobel3
 occlusion:
-  scale: 0.5
-  quality: 0.04
-  z-bias: 0.5
-  z-scale: 10
-  steps: 64
+  quality: 0.14
+  z-bias: 0
+  z-scale: 28
+  steps: 80
 porosity:
   value: 0.78
 parts:

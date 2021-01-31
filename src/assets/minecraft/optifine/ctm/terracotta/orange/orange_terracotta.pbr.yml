@@ -11,6 +11,8 @@ occlusion:
 smooth:
   texture: ../terracotta_smooth.png
   scale: 0.2
+f0:
+  value: 0.04
 porosity:
   value: 0.31
 parts:

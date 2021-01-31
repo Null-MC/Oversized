@@ -1,0 +1,8 @@
+wrap-x: false
+wrap-y: false
+height:
+  value: 0
+metal:
+  value: 230
+smooth:
+  value: 0.7
