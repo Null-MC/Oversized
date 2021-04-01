@@ -1,93 +1,18 @@
 height:
   shift: -0.14
   scale: 0.28
-  edge-fade-size-x: 900
-  edge-fade-size-y: 900
-occlusion: {}
+  edge-fade-x: 1
+  edge-fade-y: 1
+occlusion:
+  z-bias: 0.01
+  z-scale: 20
+  step-distance: 0.1
 smooth:
   scale: 0.2
 f0:
   value: 0.07
 porosity:
   value: 0.39
-parts:
-- name: 1
-  left: 0
-  top: 0
-  width: 512
-  height: 512
-- name: 2
-  left: 512
-  top: 0
-  width: 512
-  height: 512
-- name: 3
-  left: 1024
-  top: 0
-  width: 512
-  height: 512
-- name: 4
-  left: 1536
-  top: 0
-  width: 512
-  height: 512
-- name: 5
-  left: 0
-  top: 512
-  width: 512
-  height: 512
-- name: 6
-  left: 512
-  top: 512
-  width: 512
-  height: 512
-- name: 7
-  left: 1024
-  top: 512
-  width: 512
-  height: 512
-- name: 8
-  left: 1536
-  top: 512
-  width: 512
-  height: 512
-- name: 9
-  left: 0
-  top: 1024
-  width: 512
-  height: 512
-- name: 10
-  left: 512
-  top: 1024
-  width: 512
-  height: 512
-- name: 11
-  left: 1024
-  top: 1024
-  width: 512
-  height: 512
-- name: 12
-  left: 1536
-  top: 1024
-  width: 512
-  height: 512
-- name: 13
-  left: 0
-  top: 1536
-  width: 512
-  height: 512
-- name: 14
-  left: 512
-  top: 1536
-  width: 512
-  height: 512
-- name: 15
-  left: 1024
-  top: 1536
-  width: 512
-  height: 512
-- name: 16
-  left: 1536
-  top: 1536
-  width: 512
-  height: 512
+ctm-count-x: 4
+ctm-count-y: 4
+ctm-type: repeat

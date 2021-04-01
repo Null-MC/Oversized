@@ -1,13 +1,13 @@
-wrap-x: false
-wrap-y: true
 height:
   scale: 0.14
-  edge-fade-size-x: 200
 normal:
   curve-x: 90
 occlusion:
-  scale: 0.25
+  z-scale: 28
+  step-distance: 0.1
 smooth:
   scale: 0.4
 porosity:
   value: 0.39
+wrap-x: false
+wrap-y: true
