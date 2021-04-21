@@ -10,13 +10,10 @@ normal:
   strength: 2
 occlusion:
   scale: 0.2
-  quality: 0.08
   z-bias: 1
   z-scale: 8
-  steps: 28
 smooth:
-  scale: 0.2
+  scale: 0.6
 f0:
-  value: 0.04
-sss:
-  scale: 0.2
+  value: 0.017
+sss: {}

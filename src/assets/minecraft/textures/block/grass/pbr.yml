@@ -4,5 +4,9 @@ alpha:
   input:
     texture: alpha
     color: red
+smooth:
+  scale: 0.7
+f0:
+  value: 0.017
 sss:
-  value: 0.71
+  value: 0.8

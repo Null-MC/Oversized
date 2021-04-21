@@ -9,14 +9,12 @@ alpha:
 height:
   value: 0
 occlusion:
-  quality: 0.05
   z-bias: 1
   z-scale: 2
-  steps: 8
 smooth:
-  scale: 0.05
+  scale: 0.7
 f0:
-  value: 0.06
+  value: 0.017
 porosity: {}
 sss:
-  value: 60
+  value: 0.6

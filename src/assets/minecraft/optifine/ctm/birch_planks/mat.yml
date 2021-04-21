@@ -1,0 +1,16 @@
+height:
+  shift: -0.3
+  scale: 0.1
+occlusion:
+  z-bias: 0
+  z-scale: 100
+  step-distance: 0.05
+smooth:
+  scale: 0.34
+f0:
+  value: 0.03
+porosity:
+  value: 0.31
+ctm-count-x: 4
+ctm-count-y: 4
+ctm-type: repeat

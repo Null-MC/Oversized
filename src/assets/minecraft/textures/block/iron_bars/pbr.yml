@@ -4,13 +4,12 @@ alpha:
     color: red
 height:
   scale: 0.3
+normal:
+  strength: 2
 occlusion:
   scale: 0.4
-  quality: 0.08
   z-bias: 1
   z-scale: 10
-  steps: 16
-smooth:
-  scale: 0.6
+smooth: {}
 metal:
-  value: 230
+  value: 255
