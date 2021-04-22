@@ -1,0 +1,13 @@
+normal:
+  value-x: 127
+  value-y: 127
+  value-z: 255
+smooth:
+  scale: 0.8
+f0:
+  value: 0.067
+porosity:
+  value: 0
+ctm-type: repeat
+ctm-count-x: 2
+ctm-count-y: 2

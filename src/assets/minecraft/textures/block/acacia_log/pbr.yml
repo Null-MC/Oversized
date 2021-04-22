@@ -1,5 +1,8 @@
+wrap-x: false
+wrap-y: true
 height:
   scale: 0.14
+  edge-fade-x: 0.6
 normal:
   curve-x: 90
 occlusion:
@@ -9,5 +12,3 @@ smooth:
   scale: 0.4
 porosity:
   value: 0.39
-wrap-x: false
-wrap-y: true

@@ -3,6 +3,7 @@ wrap-y: true
 height:
   shift: -0.48
   scale: 0.2
+  edge-fade-x: 1
 normal:
   curve-x: 90
 occlusion:

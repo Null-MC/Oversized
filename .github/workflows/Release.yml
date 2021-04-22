@@ -8,163 +8,164 @@ on:
 
 jobs:
   publish-legacy-512x:
-    name: Publish LegacyPBR-512x
+    name: Publish OldPbr 512x
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - run: docker pull null511/pixelgraph
-      - name: Publish LegacyPBR-512x
+      - name: Publish OldPbr-512x
         run: |
           docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
-            publish -p "//content/src/legacy-512x.pack.yml" -z "//content/Oversized-LegacyPBR-512x.zip"
-      - name: Upload LegacyPBR-512x
+            publish -p "//content/src/Oversized-OldPbr-512x.pack.yml" -z "//content/Oversized-OldPBR-512x.zip"
+      - name: Upload OldPbr-512x
         uses: actions/upload-artifact@v2
         with:
-          name: LegacyPBR-512x
-          path: Oversized-LegacyPBR-512x.zip
+          name: Oversized-OldPbr-512x
+          path: Oversized-OldPbr-512x.zip
+
   publish-legacy-256x:
-    name: Publish LegacyPBR-256x
+    name: Publish OldPbr 256x
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - run: docker pull null511/pixelgraph
-      - name: Publish LegacyPBR-256x
+      - name: Publish OldPbr-256x
         run: |
           docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
-            publish -p "//content/src/legacy-256x.pack.yml" -z "//content/Oversized-LegacyPBR-256x.zip"
-      - name: Upload LegacyPBR-256x
+            publish -p "//content/src/Oversized-OldPbr-256x.pack.yml" -z "//content/Oversized-OldPBR-256x.zip"
+      - name: Upload OldPbr-256x
         uses: actions/upload-artifact@v2
         with:
-          name: LegacyPBR-256x
-          path: Oversized-LegacyPBR-256x.zip
+          name: Oversized-OldPbr-256x
+          path: Oversized-OldPbr-256x.zip
   publish-legacy-128x:
-    name: Publish LegacyPBR-128x
+    name: Publish OldPbr 128x
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - run: docker pull null511/pixelgraph
-      - name: Publish LegacyPBR-128x
+      - name: Publish OldPbr-128x
         run: |
           docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
-            publish -p "//content/src/legacy-128x.pack.yml" -z "//content/Oversized-LegacyPBR-128x.zip"
-      - name: Upload LegacyPBR-128x
+            publish -p "//content/src/Oversized-OldPbr-128x.pack.yml" -z "//content/Oversized-OldPBR-128x.zip"
+      - name: Upload OldPbr-128x
         uses: actions/upload-artifact@v2
         with:
-          name: LegacyPBR-128x
-          path: Oversized-LegacyPBR-128x.zip
+          name: Oversized-OldPbr-128x
+          path: Oversized-OldPbr-128x.zip
   publish-legacy-64x:
-    name: Publish LegacyPBR-64x
+    name: Publish OldPbr 64x
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - run: docker pull null511/pixelgraph
-      - name: Publish LegacyPBR-64x
+      - name: Publish OldPbr-64x
         run: |
           docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
-            publish -p "//content/src/legacy-64x.pack.yml" -z "//content/Oversized-LegacyPBR-64x.zip"
-      - name: Upload LegacyPBR-64x
+            publish -p "//content/src/Oversized-OldPbr-64x.pack.yml" -z "//content/Oversized-OldPbr-64x.zip"
+      - name: Upload OldPbr-64x
         uses: actions/upload-artifact@v2
         with:
-          name: LegacyPBR-64x
-          path: Oversized-LegacyPBR-64x.zip
+          name: Oversized-OldPbr-64x
+          path: Oversized-OldPbr-64x.zip
   publish-lab-512x:
-    name: Publish LabPBR-512x
+    name: Publish LabPbr 512x
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - run: docker pull null511/pixelgraph
-      - name: Publish LabPBR-512x
+      - name: Publish LabPbr-512x
         run: |
           docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
-            publish -p "//content/src/lab13-512x.pack.yml" -z "//content/Oversized-LabPBR-512x.zip"
-      - name: Upload LabPBR-512x
+            publish -p "//content/src/Oversized-LabPbr-512x.pack.yml" -z "//content/Oversized-LabPbr-512x.zip"
+      - name: Upload LabPbr-512x
         uses: actions/upload-artifact@v2
         with:
-          name: LabPBR-512x
-          path: Oversized-LabPBR-512x.zip
+          name: LabPbr-512x
+          path: Oversized-LabPbr-512x.zip
   publish-lab-256x:
-    name: Publish LabPBR-256x
+    name: Publish LabPbr-256x
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - run: docker pull null511/pixelgraph
-      - name: Publish LabPBR-256x
+      - name: Publish LabPbr-256x
         run: |
           docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
-            publish -p "//content/src/lab13-256x.pack.yml" -z "//content/Oversized-LabPBR-256x.zip"
-      - name: Upload LabPBR-256x
+            publish -p "//content/src/Oversized-LabPbr-256x.pack.yml" -z "//content/Oversized-LabPbr-256x.zip"
+      - name: Upload LabPbr-256x
         uses: actions/upload-artifact@v2
         with:
-          name: LabPBR-256x
-          path: Oversized-LabPBR-256x.zip
+          name: LabPbr-256x
+          path: Oversized-LabPbr-256x.zip
   publish-lab-128x:
-    name: Publish LabPBR-128x
+    name: Publish LabPbr-128x
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - run: docker pull null511/pixelgraph
-      - name: Publish LabPBR-128x
+      - name: Publish LabPbr-128x
         run: |
           docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
-            publish -p "//content/src/lab13-128x.pack.yml" -z "//content/Oversized-LabPBR-128x.zip"
-      - name: Upload LabPBR-128x
+            publish -p "//content/src/Oversized-LabPbr-128x.pack.yml" -z "//content/Oversized-LabPbr-128x.zip"
+      - name: Upload LabPbr-128x
         uses: actions/upload-artifact@v2
         with:
-          name: LabPBR-128x
-          path: Oversized-LabPBR-128x.zip
+          name: LabPbr-128x
+          path: Oversized-LabPbr-128x.zip
   publish-lab-64x:
-    name: Publish LabPBR-64x
+    name: Publish LabPbr-64x
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - run: docker pull null511/pixelgraph
-      - name: Publish LabPBR-64x
+      - name: Publish LabPbr-64x
         run: |
           docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
-            publish -p "//content/src/lab13-64x.pack.yml" -z "//content/Oversized-LabPBR-64x.zip"
-      - name: Upload LabPBR-64x
+            publish -p "//content/src/Oversized-LabPbr-64x.pack.yml" -z "//content/Oversized-LabPbr-64x.zip"
+      - name: Upload LabPbr-64x
         uses: actions/upload-artifact@v2
         with:
-          name: LabPBR-64x
-          path: Oversized-LabPBR-64x.zip
+          name: LabPbr-64x
+          path: Oversized-LabPbr-64x.zip
   publish:
     name: Create-Release
     runs-on: ubuntu-latest
     needs: [publish-legacy-512x, publish-legacy-256x, publish-legacy-128x, publish-legacy-64x, publish-lab-512x, publish-lab-256x, publish-lab-128x, publish-lab-64x]
     steps:
       - uses: actions/checkout@v2
-      - name: Download LegacyPBR-512x
+      - name: Download OldPbr-512x
         uses: actions/download-artifact@v2
         with:
-          name: LegacyPBR-512x
-      - name: Download LegacyPBR-256x
+          name: OldPbr-512x
+      - name: Download OldPbr-256x
         uses: actions/download-artifact@v2
         with:
-          name: LegacyPBR-256x
-      - name: Download LegacyPBR-128x
+          name: OldPbr-256x
+      - name: Download OldPbr-128x
         uses: actions/download-artifact@v2
         with:
-          name: LegacyPBR-128x
-      - name: Download LegacyPBR-64x
+          name: OldPbr-128x
+      - name: Download OldPbr-64x
         uses: actions/download-artifact@v2
         with:
-          name: LegacyPBR-64x
-      - name: Download LabPBR-512x
+          name: OldPbr-64x
+      - name: Download LabPbr-512x
         uses: actions/download-artifact@v2
         with:
-          name: LabPBR-512x
-      - name: Download LabPBR-256x
+          name: LabPbr-512x
+      - name: Download LabPbr-256x
         uses: actions/download-artifact@v2
         with:
-          name: LabPBR-256x
-      - name: Download LabPBR-128x
+          name: LabPbr-256x
+      - name: Download LabPbr-128x
         uses: actions/download-artifact@v2
         with:
-          name: LabPBR-128x
-      - name: Download LabPBR-64x
+          name: LabPbr-128x
+      - name: Download LabPbr-64x
         uses: actions/download-artifact@v2
         with:
-          name: LabPBR-64x
+          name: LabPbr-64x
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -174,75 +175,75 @@ jobs:
           tag_name: v${{ github.event.inputs.version }}
           release_name: Release ${{ github.event.inputs.version }}
           #draft: true
-      - name: Upload Oversized-LegacyPBR-512x
+      - name: Upload Oversized-OldPbr-512x
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./Oversized-LegacyPBR-512x.zip
-          asset_name: Oversized-LegacyPBR-512x.zip
+          asset_path: ./Oversized-OldPbr-512x.zip
+          asset_name: Oversized-OldPbr-512x.zip
           asset_content_type: application/zip
-      - name: Upload Oversized-LegacyPBR-256x
+      - name: Upload Oversized-OldPbr-256x
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./Oversized-LegacyPBR-256x.zip
-          asset_name: Oversized-LegacyPBR-256x.zip
+          asset_path: ./Oversized-OldPbr-256x.zip
+          asset_name: Oversized-OldPbr-256x.zip
           asset_content_type: application/zip
-      - name: Upload Oversized-LegacyPBR-128x
+      - name: Upload Oversized-OldPbr-128x
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./Oversized-LegacyPBR-128x.zip
-          asset_name: Oversized-LegacyPBR-128x.zip
+          asset_path: ./Oversized-OldPbr-128x.zip
+          asset_name: Oversized-OldPbr-128x.zip
           asset_content_type: application/zip
-      - name: Upload Oversized-LegacyPBR-64x
+      - name: Upload Oversized-OldPbr-64x
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./Oversized-LegacyPBR-64x.zip
-          asset_name: Oversized-LegacyPBR-64x.zip
+          asset_path: ./Oversized-OldPbr-64x.zip
+          asset_name: Oversized-OldPbr-64x.zip
           asset_content_type: application/zip
-      - name: Upload Oversized-LabPBR-512x
+      - name: Upload Oversized-LabPbr-512x
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./Oversized-LabPBR-512x.zip
-          asset_name: Oversized-LabPBR-512x.zip
+          asset_path: ./Oversized-LabPbr-512x.zip
+          asset_name: Oversized-LabPbr-512x.zip
           asset_content_type: application/zip
-      - name: Upload Oversized-LabPBR-256x
+      - name: Upload Oversized-LabPbr-256x
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./Oversized-LabPBR-256x.zip
-          asset_name: Oversized-LabPBR-256x.zip
+          asset_path: ./Oversized-LabPbr-256x.zip
+          asset_name: Oversized-LabPbr-256x.zip
           asset_content_type: application/zip
-      - name: Upload Oversized-LabPBR-128x
+      - name: Upload Oversized-LabPbr-128x
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./Oversized-LabPBR-128x.zip
-          asset_name: Oversized-LabPBR-128x.zip
+          asset_path: ./Oversized-LabPbr-128x.zip
+          asset_name: Oversized-LabPbr-128x.zip
           asset_content_type: application/zip
-      - name: Upload Oversized-LabPBR-64x
+      - name: Upload Oversized-LabPbr-64x
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./Oversized-LabPBR-64x.zip
-          asset_name: Oversized-LabPBR-64x.zip
+          asset_path: ./Oversized-LabPbr-64x.zip
+          asset_name: Oversized-LabPbr-64x.zip
           asset_content_type: application/zip

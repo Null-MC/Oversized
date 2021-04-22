@@ -3,6 +3,8 @@ wrap-y: true
 height:
   shift: -0.43
   scale: 0.13
+  edge-fade-x: 2
+  edge-fade-y: 0.4
 normal:
   strength: 1.2
 occlusion:

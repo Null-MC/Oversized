@@ -1,0 +1,18 @@
+height:
+  shift: -0.14
+  scale: 0.1
+  edge-fade-x: 2
+  edge-fade-y: 2
+occlusion:
+  scale: 0.3
+  z-bias: 0.5
+  z-scale: 6
+smooth:
+  scale: 0.6
+f0:
+  value: 0.06
+porosity:
+  value: 0.6
+ctm-count-x: 3
+ctm-count-y: 3
+ctm-type: repeat

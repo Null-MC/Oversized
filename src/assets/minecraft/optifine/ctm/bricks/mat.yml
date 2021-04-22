@@ -8,8 +8,8 @@ normal:
   noise: 3
   filter: variance
 occlusion:
-  z-bias: 0
-  z-scale: 120
+  z-bias: 1
+  z-scale: 20
   step-distance: 0.05
 f0: {}
 porosity:

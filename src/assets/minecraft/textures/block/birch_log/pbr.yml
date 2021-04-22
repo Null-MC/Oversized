@@ -2,7 +2,7 @@ wrap-x: false
 wrap-y: true
 height:
   scale: 0.2
-  edge-fade-size-x: 40
+  edge-fade-x: 0.4
 normal:
   curve-x: 90
 smooth:

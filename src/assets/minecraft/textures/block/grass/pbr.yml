@@ -5,7 +5,7 @@ alpha:
     texture: alpha
     color: red
 smooth:
-  scale: 0.7
+  scale: 0.35
 f0:
   value: 0.017
 sss:

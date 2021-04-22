@@ -1,0 +1,12 @@
+wrap-x: true
+wrap-y: true
+height:
+  shift: -0.08
+  scale: 0.08
+  edge-fade-x: 1
+  edge-fade-y: 1
+porosity:
+  value: 0
+ctm-count-x: 2
+ctm-count-y: 2
+ctm-type: repeat

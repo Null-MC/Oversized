@@ -1,0 +1,14 @@
+height:
+  shift: -0.31
+  scale: 0.17
+  edge-fade-x: 0.7
+  edge-fade-y: 2
+occlusion:
+  scale: 0.4
+smooth:
+  scale: 1.5
+sss:
+  value: 0.12
+ctm-count-x: 4
+ctm-count-y: 4
+ctm-type: repeat
