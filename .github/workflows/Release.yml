@@ -16,7 +16,7 @@ jobs:
       - name: Publish OldPbr-512x
         run: |
           docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
-            publish -p "//content/src/Oversized-OldPbr-512x.pack.yml" -z "//content/Oversized-OldPBR-512x.zip"
+            publish -p "//content/src/Oversized-OldPbr-512x.pack.yml" -z "//content/Oversized-OldPbr-512x.zip"
       - name: Upload OldPbr-512x
         uses: actions/upload-artifact@v2
         with:
@@ -32,7 +32,7 @@ jobs:
       - name: Publish OldPbr-256x
         run: |
           docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
-            publish -p "//content/src/Oversized-OldPbr-256x.pack.yml" -z "//content/Oversized-OldPBR-256x.zip"
+            publish -p "//content/src/Oversized-OldPbr-256x.pack.yml" -z "//content/Oversized-OldPbr-256x.zip"
       - name: Upload OldPbr-256x
         uses: actions/upload-artifact@v2
         with:
@@ -47,7 +47,7 @@ jobs:
       - name: Publish OldPbr-128x
         run: |
           docker run --name pixelgraph --rm --mount src="$(pwd)",target=/content,type=bind null511/pixelgraph \
-            publish -p "//content/src/Oversized-OldPbr-128x.pack.yml" -z "//content/Oversized-OldPBR-128x.zip"
+            publish -p "//content/src/Oversized-OldPbr-128x.pack.yml" -z "//content/Oversized-OldPbr-128x.zip"
       - name: Upload OldPbr-128x
         uses: actions/upload-artifact@v2
         with:
