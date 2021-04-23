@@ -1,10 +1,7 @@
 edition: Java
-format: 6
 description: CTM Expirement Pack
-tags: LabPBR-1.3 64x
-texture-size: 64
-texture-scale: 0.125
-auto-generate-occlusion: false
+tags: LabPbr 64x
+format: 6
 encoding:
   format: lab-1.3
   sampler: average
@@ -12,3 +9,6 @@ encoding:
     sampler: nearest
   rough:
     sampler: nearest
+texture-size: 64
+texture-scale: 0.125
+auto-generate-occlusion: false

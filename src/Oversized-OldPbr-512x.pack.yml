@@ -1,16 +1,11 @@
 edition: Java
-format: 6
 description: CTM Expirement Pack
-tags: LegacyPBR 512x
-texture-size: 512
-texture-scale: 1
-auto-generate-occlusion: false
+tags: OldPbr 512x
+format: 6
 encoding:
   format: legacy
   sampler: average
   height:
     max-value: 2
-  smooth:
-    sampler: nearest
-  rough:
-    sampler: nearest
+block-texture-size: 512
+auto-generate-occlusion: false
