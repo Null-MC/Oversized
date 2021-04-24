@@ -4,11 +4,18 @@ alpha:
   input:
     texture: alpha
     color: red
+albedo: {}
 height:
   value: 0
-occlusion:
-  scale: 0.4
+normal:
+  strength: 4
+  noise: 2
+occlusion: {}
 smooth:
-  scale: 0.05
+  scale: 0.1
+f0:
+  value: 0.03
 porosity:
   value: 0.47
+sss:
+  value: 0.1

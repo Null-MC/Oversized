@@ -8,9 +8,9 @@ occlusion:
   z-bias: 0.5
   z-scale: 6
 smooth:
-  scale: 0.6
+  scale: 0.4
 f0:
-  value: 0.06
+  value: 0.183
 porosity:
   value: 0.6
 ctm-count-x: 3
