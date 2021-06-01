@@ -1,0 +1,17 @@
+alpha:
+  value: 255
+height:
+  shift: -0.36
+  scale: 0.16
+  edge-fade-x: 2
+  edge-fade-y: 2
+occlusion:
+  scale: 0.45
+f0:
+  value: 0.06
+porosity:
+  value: 0.5
+ctm:
+  type: repeat
+  count-x: 4
+  count-y: 4

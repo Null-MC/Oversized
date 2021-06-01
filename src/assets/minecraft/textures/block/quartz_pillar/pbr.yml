@@ -1,3 +1,5 @@
+alpha:
+  value: 255
 height:
   shift: -0.1
   scale: 0.24
@@ -5,10 +7,8 @@ normal:
   noise: 2
   curve-x: 90
 occlusion:
-  quality: 0.08
   z-bias: 0.5
   z-scale: 12
-  steps: 10
 f0:
   value: 0.06
 porosity:

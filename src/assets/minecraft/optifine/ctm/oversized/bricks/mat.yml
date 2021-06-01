@@ -1,0 +1,18 @@
+alpha:
+  value: 255
+height:
+  shift: -0.24
+  scale: 0.25
+normal:
+  strength: 4
+  method: sobel-high
+  noise: 3
+occlusion:
+  z-bias: 1
+  z-scale: 20
+  step-distance: 0.05
+ctm:
+  type: repeat
+  count-x: 2
+  count-y: 2
+  placeholder: true

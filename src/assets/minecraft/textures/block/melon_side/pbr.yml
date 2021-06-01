@@ -1,9 +1,9 @@
 wrap-x: false
+alpha:
+  value: 255
 height:
   shift: -0.1
   scale: 0.25
-  edge-fade-size-x: 200
-  edge-fade-size-y: 200
 normal:
   curve-x: 90
   curve-y: 90

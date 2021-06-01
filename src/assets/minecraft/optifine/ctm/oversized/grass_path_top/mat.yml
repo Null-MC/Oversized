@@ -1,0 +1,13 @@
+alpha:
+  value: 255
+height: {}
+occlusion:
+  scale: 0.2
+smooth:
+  scale: 0.1
+porosity:
+  value: 0.63
+ctm:
+  type: repeat
+  count-x: 4
+  count-y: 4

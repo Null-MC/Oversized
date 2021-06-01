@@ -1,5 +1,5 @@
+alpha:
+  value: 255
 height:
   scale: 0.2
-  edge-fade-size-x: 200
-  edge-fade-size-y: 200
 emissive: {}

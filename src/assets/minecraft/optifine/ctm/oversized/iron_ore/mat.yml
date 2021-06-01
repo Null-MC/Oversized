@@ -1,0 +1,21 @@
+alpha:
+  value: 255
+height:
+  shift: -0.1
+  scale: 0.2
+  edge-fade-x: 0.5
+  edge-fade-y: 0.5
+normal:
+  strength: 2
+  method: sobel3
+occlusion:
+  z-bias: 1
+  z-scale: 44
+  step-distance: 0.1
+smooth:
+  scale: 0.9
+ctm:
+  type: repeat
+  count-x: 2
+  count-y: 2
+  placeholder: true

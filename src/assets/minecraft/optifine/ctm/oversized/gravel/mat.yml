@@ -1,0 +1,21 @@
+wrap-x: true
+wrap-y: true
+alpha:
+  value: 255
+height:
+  shift: -0.56
+  scale: 0.12
+  edge-fade-x: 1
+  edge-fade-y: 1
+occlusion:
+  z-bias: 0
+  z-scale: 12
+smooth:
+  scale: 0.28
+f0:
+  value: 0.07
+ctm:
+  type: repeat
+  count-x: 2
+  count-y: 2
+  placeholder: true

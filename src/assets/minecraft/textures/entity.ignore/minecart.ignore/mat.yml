@@ -1,0 +1,8 @@
+texture-width: 1024
+texture-height: 512
+wrap-x: false
+wrap-y: false
+metal:
+  value: 230
+smooth:
+  value: 0.7

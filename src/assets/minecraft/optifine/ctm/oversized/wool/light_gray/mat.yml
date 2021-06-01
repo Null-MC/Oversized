@@ -1,0 +1,20 @@
+alpha:
+  value: 255
+height:
+  texture: ../height.png
+  shift: -0.28
+  scale: 0.2
+normal:
+  texture: ../normal.png
+occlusion:
+  texture: ../occlusion.png
+  scale: 0.8
+smooth:
+  texture: ../smooth.png
+  scale: 0.05
+porosity:
+  value: 0.8
+ctm:
+  type: repeat
+  count-x: 2
+  count-y: 2

@@ -1,0 +1,24 @@
+alpha:
+  value: 255
+height:
+  shift: -0.08
+  scale: 0.4
+  edge-fade-x: 4
+f0:
+  value: 0.03
+porosity:
+  value: 0.7
+ctm-count-x: 2
+ctm-count-y: 2
+ctm-type: repeat
+filters:
+- left: 0.0
+  top: 0.0
+  width: 0.5
+  height: 1.0
+  normal-curve-x: 90
+- left: 0.5
+  top: 0.0
+  width: 0.5
+  height: 1.0
+  normal-curve-x: 90

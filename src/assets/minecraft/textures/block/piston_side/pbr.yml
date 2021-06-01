@@ -1,15 +1,14 @@
 wrap-y: false
+alpha:
+  value: 255
 height:
   shift: -0.1
   scale: 0.04
-  edge-fade-size-y: 100
 normal:
   strength: 0.8
 occlusion:
-  quality: 0.1
   z-bias: 0.2
   z-scale: 4
-  steps: 16
 smooth:
   scale: 0.8
 metal: {}

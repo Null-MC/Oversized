@@ -1,0 +1,18 @@
+alpha:
+  value: 255
+height:
+  scale: 0.1
+  edge-fade-y: 0.4
+occlusion:
+  z-bias: 1
+  z-scale: 24
+  step-distance: 0.1
+metal:
+  value: 255
+porosity:
+  value: 0
+ctm:
+  type: repeat
+  count-x: 4
+  count-y: 4
+  placeholder: true

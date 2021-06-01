@@ -1,8 +1,2 @@
 format: raw
 auto-material: false
-alpha:
-  texture: albedo
-  color: alpha
-f0:
-  max-value: 0.9
-  range-max: 229

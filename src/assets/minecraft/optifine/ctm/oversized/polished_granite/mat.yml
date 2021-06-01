@@ -1,0 +1,6 @@
+alpha:
+  value: 255
+ctm:
+  type: repeat
+  count-x: 2
+  count-y: 2

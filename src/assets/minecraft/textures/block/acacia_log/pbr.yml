@@ -1,5 +1,7 @@
 wrap-x: false
 wrap-y: true
+alpha:
+  value: 255
 height:
   scale: 0.14
   edge-fade-x: 0.6

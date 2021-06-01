@@ -1,0 +1,20 @@
+alpha:
+  value: 255
+height:
+  shift: -0.14
+  scale: 0.1
+  edge-fade-x: 2
+  edge-fade-y: 2
+occlusion:
+  z-bias: 1
+  z-scale: 6
+  step-distance: 0.05
+smooth: {}
+f0:
+  value: 0.191
+porosity:
+  value: 0.6
+ctm:
+  type: repeat
+  count-x: 3
+  count-y: 3

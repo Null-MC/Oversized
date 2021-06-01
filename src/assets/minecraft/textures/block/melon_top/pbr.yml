@@ -1,19 +1,17 @@
 wrap-x: false
 wrap-y: false
+alpha:
+  value: 255
 height:
   shift: -0.2
   scale: 0.3
-  edge-fade-size-x: 200
-  edge-fade-size-y: 200
 normal:
   strength: 2
   curve-x: 90
   curve-y: 90
 occlusion:
-  quality: 0.05
   z-bias: 1
   z-scale: 10
-  steps: 20
 smooth:
   scale: 0.2
 porosity:
