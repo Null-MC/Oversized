@@ -1,8 +1,9 @@
+edition: Java
 format: 6
 description: CTM Expirement Pack
 tags: OldPbr 128x
 encoding:
-  format: legacy
+  format: old-pbr
   sampler: average
   alpha: {}
   diffuse-red: {}
@@ -28,4 +29,3 @@ encoding:
 block-texture-size: 128
 texture-scale: 0.25
 auto-generate-occlusion: false
-edition: Java
