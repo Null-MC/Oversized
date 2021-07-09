@@ -11,10 +11,12 @@ occlusion:
   scale: 0.2
   z-bias: 1
   z-scale: 10
+smooth:
+  scale: 0.88
 f0:
   value: 0.017
 sss:
-  value: 0.39
+  value: 1
 ctm:
   type: repeat
   count-x: 4

@@ -3,7 +3,7 @@ alpha:
     texture: alpha
     color: red
 height:
-  scale: 0.16
+  scale: 0.2
 f0:
   scale: 0.08
 porosity:

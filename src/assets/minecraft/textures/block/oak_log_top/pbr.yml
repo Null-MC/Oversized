@@ -2,7 +2,7 @@ alpha:
   value: 255
 height:
   shift: -0.25
-  scale: 0.08
+  scale: 0.2
 occlusion:
   scale: 0.35
   z-bias: 1

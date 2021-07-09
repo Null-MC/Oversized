@@ -4,19 +4,19 @@ alpha:
   value: 255
 height:
   shift: -0.31
-  scale: 0.3
+  scale: 0.9
   edge-fade-x: 2
   edge-fade-y: 2
 occlusion:
+  step-distance: 0.05
   z-bias: 0
   z-scale: 80
-  step-distance: 0.05
 smooth:
-  scale: 0.1
+  scale: 0.2
 f0:
   value: 0.03
 porosity:
-  value: 0.78
+  scale: 0.8
 ctm:
   type: repeat
   count-x: 3

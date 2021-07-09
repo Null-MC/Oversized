@@ -1,5 +1,6 @@
 wrap-x: true
 wrap-y: true
+color-tint: '#BFB755'
 alpha:
   value: 255
 height:

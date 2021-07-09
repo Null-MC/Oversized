@@ -4,7 +4,7 @@ alpha:
   value: 255
 height:
   shift: -0.2
-  scale: 0.3
+  scale: 0.8
 normal:
   strength: 2
   curve-x: 90
@@ -12,7 +12,5 @@ normal:
 occlusion:
   z-bias: 1
   z-scale: 10
-smooth:
-  scale: 0.2
-porosity:
-  value: 0
+f0:
+  value: 0.04

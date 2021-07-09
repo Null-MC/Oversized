@@ -8,9 +8,9 @@ height:
 occlusion:
   scale: 0.4
 smooth:
-  scale: 1.5
-sss:
-  value: 0.12
+  scale: 0.6
+f0:
+  value: 0.06
 ctm:
   type: repeat
   count-x: 4

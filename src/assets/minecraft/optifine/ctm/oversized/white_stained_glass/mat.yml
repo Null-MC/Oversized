@@ -2,8 +2,11 @@ alpha:
   input:
     texture: alpha
     color: red
+height:
+  scale: 0.3
 f0:
   value: 0.04
-ctm-type: repeat
-ctm-count-x: 2
-ctm-count-y: 2
+ctm:
+  type: repeat
+  count-x: 2
+  count-y: 2

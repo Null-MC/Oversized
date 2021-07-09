@@ -2,7 +2,7 @@ alpha:
   value: 255
 height:
   shift: -0.18
-  scale: 0.28
+  scale: 0.7
   edge-fade-x: 2
   edge-fade-y: 1
 occlusion:

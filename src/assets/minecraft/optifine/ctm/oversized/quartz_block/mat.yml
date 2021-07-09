@@ -2,8 +2,10 @@ alpha:
   value: 255
 height:
   scale: 0.08
+rough:
+  scale: 2
 f0:
-  value: 0.06
+  value: 0.035
 porosity:
   value: 0
 ctm:

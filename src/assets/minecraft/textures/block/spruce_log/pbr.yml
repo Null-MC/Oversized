@@ -4,10 +4,8 @@ alpha:
   value: 255
 height:
   shift: -0.16
-  scale: 0.08
+  scale: 0.2
   edge-fade-x: 1
-normal:
-  curve-x: 90
 occlusion:
   scale: 0.3
 smooth:

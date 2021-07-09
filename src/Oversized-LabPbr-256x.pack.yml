@@ -1,10 +1,34 @@
 edition: Java
+format: 6
 description: CTM Expirement Pack
 tags: LabPbr 256x
-format: 6
 encoding:
   format: lab-1.3
-  sampler: average
+  sampler: nearest
+  alpha: {}
+  diffuse-red: {}
+  diffuse-green: {}
+  diffuse-blue: {}
+  albedo-red: {}
+  albedo-green: {}
+  albedo-blue: {}
+  height:
+    sampler: average
+  occlusion: {}
+  normal-x:
+    sampler: average
+  normal-y:
+    sampler: average
+  normal-z:
+    sampler: average
+  specular: {}
+  smooth: {}
+  rough: {}
+  metal: {}
+  f0: {}
+  porosity: {}
+  sss: {}
+  emissive: {}
 block-texture-size: 256
 texture-scale: 0.5
 auto-generate-occlusion: false

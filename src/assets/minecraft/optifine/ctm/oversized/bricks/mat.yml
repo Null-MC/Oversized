@@ -1,16 +1,15 @@
-alpha:
-  value: 255
 height:
   shift: -0.24
-  scale: 0.25
+  scale: 0.5
 normal:
-  strength: 4
   method: sobel-high
-  noise: 3
+  strength: 4
 occlusion:
+  step-distance: 0.05
   z-bias: 1
   z-scale: 20
-  step-distance: 0.05
+smooth:
+  scale: 0.2
 ctm:
   type: repeat
   count-x: 2

@@ -1,5 +1,6 @@
 wrap-x: false
 wrap-y: false
+color-tint: '#559833'
 alpha:
   input:
     texture: alpha

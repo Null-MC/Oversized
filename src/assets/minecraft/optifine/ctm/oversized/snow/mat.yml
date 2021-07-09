@@ -1,18 +1,16 @@
 alpha:
   value: 255
 height:
-  shift: -0.35
-  scale: 0.3
-  edge-fade-x: 1
-  edge-fade-y: 1
+  shift: -0.1
+  scale: 0.5
+  edge-fade-x: 0.8
+  edge-fade-y: 0.8
 occlusion:
   scale: 0.3
-metal: {}
 f0:
   value: 0.017
-porosity: {}
 sss:
-  value: 0.16
+  value: 0.3
 ctm:
   type: repeat
   count-x: 4

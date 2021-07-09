@@ -8,9 +8,11 @@ height:
 occlusion:
   scale: 0.2
 smooth:
-  scale: 0.36
+  scale: 0.5
+f0:
+  value: 0.04
 porosity:
-  value: 0.24
+  value: 0.6
 ctm:
   type: repeat
   count-x: 3

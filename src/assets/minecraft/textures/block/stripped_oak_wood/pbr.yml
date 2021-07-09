@@ -4,10 +4,9 @@ alpha:
   value: 255
 height:
   shift: -0.18
-  scale: 0.14
+  scale: 0.08
 occlusion:
   z-scale: 4
-smooth: {}
 f0:
   value: 0.03
 porosity:

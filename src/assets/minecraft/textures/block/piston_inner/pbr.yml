@@ -2,7 +2,7 @@ alpha:
   value: 255
 height:
   shift: -0.1
-  scale: 0.1
+  scale: 0.2
 normal:
   strength: 1.8
 occlusion:
@@ -10,6 +10,5 @@ occlusion:
   z-scale: 4
 smooth:
   scale: 0.45
-f0: {}
 porosity:
   value: 0

@@ -2,15 +2,17 @@ alpha:
   value: 255
 height:
   shift: -0.24
-  scale: 0.1
+  scale: 0.4
   edge-fade-x: 1
   edge-fade-y: 1
 occlusion:
   scale: 0.4
 smooth:
-  scale: 2
+  scale: 8
+f0:
+  value: 0.02
 sss:
-  scale: 0.1
+  scale: 0.6
 ctm:
   type: repeat
   count-x: 2

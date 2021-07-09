@@ -4,19 +4,17 @@ alpha:
     color: red
 height:
   shift: -0.04
-  scale: 0.4
   edge-fade-x: 2
   edge-fade-y: 2
 occlusion:
   scale: 0.2
   z-bias: 1
   z-scale: 10
-smooth: {}
-metal: {}
 f0:
-  value: 0.017
+  value: 0.02
 sss:
   value: 1
-ctm-count-x: 4
-ctm-count-y: 4
-ctm-type: repeat
+ctm:
+  type: repeat
+  count-x: 4
+  count-y: 4

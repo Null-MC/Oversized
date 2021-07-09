@@ -1,8 +1,11 @@
 alpha:
   value: 255
 height:
-  scale: 0.3
+  shift: -0.2
+  scale: 0.5
 normal:
-  strength: 1.5
+  strength: 2
+smooth:
+  scale: 0.8
 f0:
   value: 0.04

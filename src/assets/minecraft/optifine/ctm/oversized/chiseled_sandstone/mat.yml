@@ -1,13 +1,11 @@
-alpha:
-  value: 255
 height:
   shift: -0.02
-  scale: 0.2
+  scale: 0.4
   edge-fade-x: 1
 f0:
   value: 0.03
 porosity:
-  value: 0.8
+  value: 0.9
 ctm:
   type: repeat
   count-x: 2

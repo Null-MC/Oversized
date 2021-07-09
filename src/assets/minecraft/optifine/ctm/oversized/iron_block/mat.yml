@@ -1,14 +1,21 @@
+color-tint: '#fefefd'
 alpha:
   value: 255
+albedo:
+  scale-red: 1.5
+  scale-green: 1.5
+  scale-blue: 1.5
 height:
-  scale: 0.1
+  scale: 0.3
   edge-fade-y: 0.4
+normal:
+  strength: 1
 occlusion:
+  step-distance: 0.1
   z-bias: 1
   z-scale: 24
-  step-distance: 0.1
 metal:
-  value: 255
+  value: 237
 porosity:
   value: 0
 ctm:

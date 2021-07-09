@@ -1,5 +1,7 @@
 alpha:
   value: 255
+f0:
+  value: 0.08
 ctm:
   type: repeat
   count-x: 2

@@ -4,6 +4,12 @@ height:
   shift: -0.1
   scale: 0.5
   edge-fade-x: 0.3
+rough:
+  scale: 1.5
+f0:
+  value: 0.04
+porosity:
+  scale: 0.1
 ctm:
   type: repeat
   count-x: 4

@@ -2,4 +2,7 @@ alpha:
   value: 255
 height:
   scale: 0.2
-emissive: {}
+metal:
+  value: 0
+f0:
+  value: 0.04

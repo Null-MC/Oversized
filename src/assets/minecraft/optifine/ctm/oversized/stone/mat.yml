@@ -6,15 +6,15 @@ height:
   edge-fade-x: 1
   edge-fade-y: 1
 occlusion:
+  step-distance: 0.1
   z-bias: 0.01
   z-scale: 20
-  step-distance: 0.1
 smooth:
-  scale: 0.2
+  scale: 0.8
 f0:
-  value: 0.07
+  value: 0.04
 porosity:
-  value: 0.39
+  value: 0.6
 ctm:
   type: repeat
   count-x: 4

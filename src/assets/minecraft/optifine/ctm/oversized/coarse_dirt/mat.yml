@@ -5,6 +5,8 @@ height:
   scale: 0.3
   edge-fade-x: 2
   edge-fade-y: 2
+normal:
+  strength: 2
 smooth:
   scale: 0.08
 f0:

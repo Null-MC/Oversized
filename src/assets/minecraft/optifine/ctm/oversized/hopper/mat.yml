@@ -8,8 +8,8 @@ occlusion:
   scale: 0.1
   z-bias: 0.5
   z-scale: 6
-metal: {}
-porosity: {}
+smooth:
+  scale: 0.4
 ctm:
   type: repeat
   count-x: 2

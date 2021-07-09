@@ -7,15 +7,14 @@ height:
   scale: 0.1
   edge-fade-x: 0.4
   edge-fade-y: 0.4
-normal: {}
 occlusion:
+  step-distance: 0.05
   z-bias: 0.4
   z-scale: 3
-  step-distance: 0.05
 smooth:
   scale: 1.2
 metal:
-  value: 255
+  value: 231
 porosity:
   value: 0
 ctm:

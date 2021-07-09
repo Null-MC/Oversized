@@ -1,9 +1,5 @@
 alpha:
   value: 255
-normal:
-  value-x: 127
-  value-y: 127
-  value-z: 255
 smooth:
   scale: 0.8
 f0:

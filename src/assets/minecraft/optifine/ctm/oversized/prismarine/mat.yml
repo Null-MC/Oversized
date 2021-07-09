@@ -2,14 +2,14 @@ alpha:
   value: 255
 height:
   shift: -0.12
-  scale: 0.04
+  scale: 0.1
   edge-fade-x: 0.4
   edge-fade-y: 0.4
 occlusion:
   scale: 0.2
   z-scale: 8
-porosity:
-  value: 0
+f0:
+  value: 0.04
 ctm:
   type: repeat
   count-x: 4

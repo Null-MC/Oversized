@@ -7,10 +7,11 @@ height:
 f0:
   value: 0.03
 porosity:
-  value: 0.7
-ctm-count-x: 2
-ctm-count-y: 2
-ctm-type: repeat
+  value: 0.9
+ctm:
+  type: repeat
+  count-x: 2
+  count-y: 2
 filters:
 - left: 0.0
   top: 0.0

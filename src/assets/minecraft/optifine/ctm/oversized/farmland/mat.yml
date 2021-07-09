@@ -2,15 +2,17 @@ alpha:
   value: 255
 height:
   shift: -0.31
-  scale: 0.3
+  scale: 0.8
   edge-fade-x: 2
   edge-fade-y: 2
 occlusion:
   scale: 0.3
   z-bias: 0.5
   z-scale: 10
-smooth:
-  scale: 0.5
+rough:
+  scale: 2.6
+f0:
+  value: 0.02
 porosity:
   value: 0.08
 ctm:

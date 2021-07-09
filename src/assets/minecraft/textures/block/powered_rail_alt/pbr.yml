@@ -6,12 +6,9 @@ alpha:
     color: red
 height:
   shift: -0.16
-  scale: 0.4
+  scale: 0.8
 normal:
   strength: 2.4
 occlusion:
-  quality: 0.06
   z-bias: 1
   z-scale: 16
-  steps: 8
-smooth: {}

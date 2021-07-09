@@ -1,9 +1,10 @@
+edition: Java
 format: 6
 description: CTM Expirement Pack
 tags: LabPbr 128x
 encoding:
   format: lab-1.3
-  sampler: average
+  sampler: nearest
   alpha: {}
   diffuse-red: {}
   diffuse-green: {}
@@ -11,11 +12,15 @@ encoding:
   albedo-red: {}
   albedo-green: {}
   albedo-blue: {}
-  height: {}
+  height:
+    sampler: average
   occlusion: {}
-  normal-x: {}
-  normal-y: {}
-  normal-z: {}
+  normal-x:
+    sampler: average
+  normal-y:
+    sampler: average
+  normal-z:
+    sampler: average
   specular: {}
   smooth: {}
   rough: {}
@@ -27,4 +32,3 @@ encoding:
 block-texture-size: 128
 texture-scale: 0.25
 auto-generate-occlusion: false
-edition: Java

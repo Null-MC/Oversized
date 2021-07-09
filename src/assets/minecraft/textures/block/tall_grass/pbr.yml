@@ -1,10 +1,10 @@
 wrap-x: false
 wrap-y: false
+color-tint: '#559833'
 alpha:
   input:
     texture: alpha
     color: red
-occlusion: {}
 smooth:
   scale: 0.5
 sss:

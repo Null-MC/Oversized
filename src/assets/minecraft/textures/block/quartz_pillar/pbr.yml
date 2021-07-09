@@ -2,14 +2,11 @@ alpha:
   value: 255
 height:
   shift: -0.1
-  scale: 0.24
-normal:
-  noise: 2
-  curve-x: 90
+  scale: 0.6
 occlusion:
   z-bias: 0.5
   z-scale: 12
 f0:
   value: 0.06
 porosity:
-  scale: 20
+  value: 0.6

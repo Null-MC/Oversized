@@ -3,13 +3,11 @@ wrap-y: true
 alpha:
   value: 255
 height:
-  scale: 0.14
+  scale: 0.3
   edge-fade-x: 0.6
-normal:
-  curve-x: 90
 occlusion:
-  z-scale: 28
   step-distance: 0.1
+  z-scale: 28
 smooth:
   scale: 0.4
 porosity:
