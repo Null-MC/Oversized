@@ -1,15 +1,16 @@
 color-tint: '#79C05A'
-alpha:
+opacity:
   value: 255
 height:
   shift: -0.24
-  scale: 0.28
+  scale: 0.8
   edge-fade-x: 1
   edge-fade-y: 1
 occlusion:
   scale: 0.7
 smooth:
-  scale: 0.12
+  shift: -0.2
+  scale: 2
 porosity:
   value: 0.63
 ctm:

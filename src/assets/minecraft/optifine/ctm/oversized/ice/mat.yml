@@ -1,4 +1,4 @@
-alpha:
+opacity:
   input:
     texture: alpha
     color: red

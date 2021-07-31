@@ -1,0 +1,14 @@
+wrap-x: false
+wrap-y: false
+color-tint: '#619961'
+height:
+  value: 0
+occlusion:
+  z-bias: 1
+  z-scale: 2
+smooth:
+  scale: 0.7
+f0:
+  value: 0.017
+sss:
+  value: 0.6

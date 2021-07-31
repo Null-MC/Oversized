@@ -1,7 +1,7 @@
 color-tint: '#fefefd'
-alpha:
+opacity:
   value: 255
-albedo:
+color:
   scale-red: 1.5
   scale-green: 1.5
   scale-blue: 1.5
@@ -15,7 +15,7 @@ occlusion:
   z-bias: 1
   z-scale: 24
 metal:
-  value: 237
+  value: 230
 porosity:
   value: 0
 ctm:

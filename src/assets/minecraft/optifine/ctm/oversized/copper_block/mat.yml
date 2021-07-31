@@ -1,7 +1,11 @@
 wrap-x: true
 wrap-y: true
-alpha:
+opacity:
   value: 255
+color:
+  scale-red: 0.8
+  scale-green: 0.8
+  scale-blue: 0.8
 height:
   shift: -0.2
   scale: 0.2

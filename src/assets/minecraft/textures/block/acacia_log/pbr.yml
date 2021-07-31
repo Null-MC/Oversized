@@ -12,3 +12,5 @@ smooth:
   scale: 0.4
 porosity:
   value: 0.39
+filters:
+- normal-curve-x: 90

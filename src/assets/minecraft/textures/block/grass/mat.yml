@@ -1,0 +1,9 @@
+wrap-x: false
+wrap-y: false
+color-tint: '#559833'
+smooth:
+  scale: 0.35
+f0:
+  value: 0.017
+sss:
+  value: 0.8

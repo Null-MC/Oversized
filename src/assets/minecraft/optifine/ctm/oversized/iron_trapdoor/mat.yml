@@ -1,9 +1,5 @@
 wrap-x: true
 wrap-y: true
-alpha:
-  input:
-    texture: alpha
-    color: red
 height:
   scale: 0.3
   edge-fade-x: 0.1

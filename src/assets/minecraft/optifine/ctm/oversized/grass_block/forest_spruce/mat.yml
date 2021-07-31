@@ -1,11 +1,11 @@
 color-tint: '#86B783'
-alpha:
+opacity:
   value: 255
 height:
   shift: -0.24
-  scale: 0.16
-  edge-fade-x: 2
-  edge-fade-y: 2
+  scale: 0.6
+  edge-fade-x: 0.5
+  edge-fade-y: 0.5
 occlusion:
   scale: 0.7
 porosity:

@@ -1,7 +1,3 @@
-alpha:
-  input:
-    texture: alpha
-    color: red
 height:
   shift: -0.04
   edge-fade-x: 2
