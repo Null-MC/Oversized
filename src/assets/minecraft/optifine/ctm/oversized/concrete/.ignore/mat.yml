@@ -1,0 +1,19 @@
+opacity:
+  value: 255
+height:
+  scale: 0.1
+  auto-level: false
+  edge-fade-x: 1
+  edge-fade-y: 1
+occlusion:
+  step-distance: 0.05
+  z-bias: 1
+  z-scale: 6
+f0:
+  value: 0.06
+porosity:
+  value: 0.6
+ctm:
+  type: repeat
+  count-x: 3
+  count-y: 3

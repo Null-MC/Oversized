@@ -1,0 +1,12 @@
+wrap-x: false
+wrap-y: false
+model-file: lever
+height:
+  scale: 0.5
+normal:
+  strength: 3
+occlusion:
+  z-bias: 1
+  z-scale: 5
+porosity:
+  value: 0

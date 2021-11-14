@@ -1,6 +1,8 @@
 wrap-x: false
 wrap-y: false
-color-tint: '#48B518'
+model-file: acacia_leaves_1
+color:
+  preview-tint: '#48B518'
 height:
   value: 0
 normal:

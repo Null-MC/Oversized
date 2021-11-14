@@ -1,0 +1,17 @@
+height:
+  shift: -0.22
+  scale: 0.5
+  auto-level: true
+  edge-fade-x: 1
+  edge-fade-y: 1
+  edge-fade-strength: 0.7
+smooth:
+  scale: 0.75
+f0:
+  value: 0.017
+ctm:
+  method: repeat
+  width: 4
+  height: 4
+  match-tiles: moss_block
+  placeholder: true

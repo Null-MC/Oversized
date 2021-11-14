@@ -1,6 +1,9 @@
 wrap-x: false
 wrap-y: false
-color-tint: '#48B518'
+model-type: file
+model-file: assets\minecraft\models\block\oak_leaves.json
+color:
+  preview-tint: '#48B518'
 height:
   value: 0
 normal:

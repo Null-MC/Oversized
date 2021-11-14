@@ -1,16 +1,19 @@
-alpha:
-  value: 255
 height:
-  shift: -0.17
-  scale: 0.4
-  edge-fade-x: 4
-  edge-fade-y: 4
+  shift: -0.28
+  scale: 0.5
+  auto-level: true
+  edge-fade-x: 2
+  edge-fade-y: 2
+  edge-fade-strength: 0.7
 occlusion:
   z-bias: 0.1
   z-scale: 12
+smooth:
+  scale: 0.7
 f0:
-  value: 0.03
+  value: 0.05
 ctm:
-  type: repeat
-  count-x: 4
-  count-y: 4
+  method: repeat
+  width: 4
+  height: 4
+  match-tiles: red_sand

@@ -1,0 +1,10 @@
+height:
+  scale: 0.1
+occlusion:
+  step-distance: 0.1
+  z-scale: 4
+ctm:
+  method: repeat
+  width: 2
+  height: 2
+  placeholder: true

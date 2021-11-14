@@ -1,0 +1,25 @@
+height:
+  shift: -0.3
+  scale: 0.3
+  auto-level: true
+  edge-fade-x: 1
+f0:
+  value: 0.03
+porosity:
+  value: 0.2
+ctm:
+  method: repeat
+  width: 2
+  height: 2
+  match-tiles: jungle_log
+filters:
+- left: 0.0
+  top: 0.0
+  width: 0.5
+  height: 1.0
+  normal-curve-x: 90
+- left: 0.5
+  top: 0.0
+  width: 0.5
+  height: 1.0
+  normal-curve-x: 90

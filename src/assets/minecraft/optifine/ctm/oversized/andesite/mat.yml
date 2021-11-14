@@ -1,7 +1,8 @@
-alpha:
+opacity:
   value: 255
 height:
-  shift: -0.12
+  shift: -0.2
+  scale: 2
   edge-fade-x: 2
   edge-fade-y: 2
 normal:

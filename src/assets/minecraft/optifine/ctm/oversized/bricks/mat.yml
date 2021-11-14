@@ -8,8 +8,6 @@ occlusion:
   step-distance: 0.05
   z-bias: 1
   z-scale: 20
-smooth:
-  scale: 0.2
 ctm:
   type: repeat
   count-x: 2

@@ -1,13 +1,12 @@
-alpha:
+opacity:
   value: 255
 height:
   scale: 0.08
+  auto-level: true
 rough:
   scale: 2
 f0:
   value: 0.035
-porosity:
-  value: 0
 ctm:
   type: repeat
   count-x: 2

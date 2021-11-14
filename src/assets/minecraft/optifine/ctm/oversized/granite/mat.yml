@@ -1,10 +1,10 @@
 wrap-x: true
 wrap-y: true
-alpha:
+opacity:
   value: 255
 height:
-  shift: -0.2
-  scale: 0.5
+  shift: -0.4
+  scale: 0.7
   edge-fade-x: 0.6
   edge-fade-y: 0.6
 occlusion:

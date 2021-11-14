@@ -1,4 +1,4 @@
-alpha:
+opacity:
   value: 255
 height:
   shift: -0.24
@@ -7,6 +7,8 @@ height:
   edge-fade-y: 1
 occlusion:
   scale: 0.3
+f0:
+  value: 0.03
 porosity:
   value: 0.24
 ctm:

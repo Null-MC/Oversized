@@ -1,8 +1,11 @@
 wrap-x: false
 wrap-y: false
-color-tint: '#619961'
-alpha:
+model-type: file
+model-file: assets\minecraft\models\block\spruce_leaves_2.json
+opacity:
   scale: 0.7
+color:
+  preview-tint: '#619961'
 height:
   value: 0
 occlusion:

@@ -1,6 +1,6 @@
 wrap-x: true
 wrap-y: true
-alpha:
+opacity:
   value: 255
 height:
   shift: -0.2
@@ -18,7 +18,7 @@ metal:
 porosity:
   value: 0
 ctm:
-  type: repeat
-  count-x: 2
-  count-y: 2
+  method: repeat
+  width: 2
+  height: 2
   placeholder: true

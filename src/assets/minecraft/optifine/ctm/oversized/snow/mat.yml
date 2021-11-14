@@ -1,4 +1,4 @@
-alpha:
+opacity:
   value: 255
 height:
   shift: -0.1
@@ -9,8 +9,6 @@ occlusion:
   scale: 0.3
 f0:
   value: 0.017
-sss:
-  value: 0.3
 ctm:
   type: repeat
   count-x: 4

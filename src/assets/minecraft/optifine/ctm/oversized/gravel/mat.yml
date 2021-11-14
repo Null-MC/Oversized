@@ -1,6 +1,6 @@
 wrap-x: true
 wrap-y: true
-alpha:
+opacity:
   value: 255
 height:
   shift: -0.56
@@ -11,7 +11,7 @@ occlusion:
   z-bias: 0
   z-scale: 12
 smooth:
-  scale: 0.5
+  scale: 0.3
 f0:
   value: 0.04
 ctm:

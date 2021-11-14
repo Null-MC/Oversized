@@ -1,0 +1,11 @@
+wrap-x: false
+wrap-y: false
+height:
+  value: 0
+normal:
+  strength: 2
+occlusion:
+  quality: 0.04
+  z-bias: 1
+  z-scale: 6
+  steps: 6

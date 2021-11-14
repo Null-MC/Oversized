@@ -1,4 +1,4 @@
-alpha:
+opacity:
   value: 255
 height:
   shift: -0.31
@@ -10,7 +10,7 @@ occlusion:
 smooth:
   scale: 0.5
 porosity:
-  value: 0.78
+  value: 0.5
 ctm:
   type: repeat
   count-x: 2

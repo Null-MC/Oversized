@@ -1,5 +1,6 @@
 wrap-x: true
 wrap-y: true
+model: cube_all
 opacity:
   value: 255
 color:
@@ -22,7 +23,7 @@ metal:
 porosity:
   value: 0
 ctm:
-  type: repeat
-  count-x: 2
-  count-y: 2
+  method: repeat
+  width: 2
+  height: 2
   placeholder: true

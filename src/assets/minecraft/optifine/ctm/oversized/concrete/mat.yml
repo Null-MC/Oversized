@@ -1,19 +1,21 @@
-alpha:
-  value: 255
 height:
-  shift: -0.14
-  scale: 0.1
-  edge-fade-x: 2
-  edge-fade-y: 2
+  shift: -0.4
+  scale: 0.2
+  auto-level: true
+  edge-fade-x: 1
+  edge-fade-y: 1
 occlusion:
   step-distance: 0.05
   z-bias: 1
   z-scale: 6
+rough:
+  shift: 0.08
 f0:
   value: 0.06
 porosity:
-  value: 0.6
+  value: 0.26
 ctm:
-  type: repeat
-  count-x: 3
-  count-y: 3
+  method: repeat
+  width: 4
+  height: 4
+  match-tiles: concrete

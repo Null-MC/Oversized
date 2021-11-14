@@ -1,0 +1,15 @@
+wrap-x: false
+wrap-y: false
+height:
+  value: 0
+normal:
+  noise: 2
+  strength: 4
+smooth:
+  scale: 0.1
+f0:
+  value: 0.03
+porosity:
+  value: 0.47
+sss:
+  value: 0.1

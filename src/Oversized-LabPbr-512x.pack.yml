@@ -5,13 +5,10 @@ tags: LabPbr 512x
 encoding:
   format: lab-1.3
   sampler: nearest
-  alpha: {}
-  diffuse-red: {}
-  diffuse-green: {}
-  diffuse-blue: {}
-  albedo-red: {}
-  albedo-green: {}
-  albedo-blue: {}
+  opacity: {}
+  color-red: {}
+  color-green: {}
+  color-blue: {}
   height: {}
   occlusion: {}
   normal-x: {}
@@ -27,3 +24,4 @@ encoding:
   emissive: {}
 block-texture-size: 512
 auto-generate-occlusion: false
+occlusion-power: 0.7

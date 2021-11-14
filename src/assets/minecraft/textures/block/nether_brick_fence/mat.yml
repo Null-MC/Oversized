@@ -1,0 +1,14 @@
+opacity:
+  value: 255
+height:
+  scale: 0.04
+occlusion:
+  value: 0
+  z-bias: 0.1
+  z-scale: 1
+smooth:
+  scale: 1.6
+metal:
+  value: 230
+f0:
+  value: 0

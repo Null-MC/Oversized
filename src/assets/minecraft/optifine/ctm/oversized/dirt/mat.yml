@@ -1,6 +1,6 @@
 wrap-x: true
 wrap-y: true
-alpha:
+opacity:
   value: 255
 height:
   shift: -0.31
@@ -15,8 +15,6 @@ smooth:
   scale: 0.2
 f0:
   value: 0.03
-porosity:
-  scale: 0.8
 ctm:
   type: repeat
   count-x: 3

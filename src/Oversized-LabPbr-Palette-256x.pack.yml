@@ -1,0 +1,33 @@
+edition: Java
+format: 6
+description: CTM Expirement Pack
+tags: LabPbr 256x Palette
+encoding:
+  format: lab-1.3
+  sampler: nearest
+  enable-palette: true
+  palette-colors: 64
+  opacity: {}
+  color-red: {}
+  color-green: {}
+  color-blue: {}
+  height:
+    sampler: average
+  occlusion: {}
+  normal-x:
+    sampler: average
+  normal-y:
+    sampler: average
+  normal-z:
+    sampler: average
+  specular: {}
+  smooth: {}
+  rough: {}
+  metal: {}
+  f0: {}
+  porosity: {}
+  sss: {}
+  emissive: {}
+block-texture-size: 256
+texture-scale: 0.5
+auto-generate-occlusion: false
