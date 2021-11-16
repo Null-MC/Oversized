@@ -1,0 +1,23 @@
+wrap-x: true
+wrap-y: true
+height:
+  scale: 0.1
+  auto-level: true
+  edge-fade-x: 1
+  edge-fade-y: 1
+normal:
+  noise: 3
+occlusion:
+  step-distance: 0.05
+  z-bias: 0
+  z-scale: 6
+smooth:
+  scale: 0.6
+f0:
+  value: 0.021
+sss:
+  value: 0.55
+ctm:
+  method: of-overlay-repeat
+  width: 4
+  height: 4

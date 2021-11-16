@@ -2,11 +2,11 @@
   "variants": {
     "snowy=false": [
       {
-        "model": "minecraft:block/grass_block"
+        "model": "block/grass_block"
       }
     ],
     "snowy=true": {
-      "model": "minecraft:block/grass_block_snow"
+      "model": "block/grass_block_snow"
     }
   }
 }

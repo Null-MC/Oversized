@@ -17,3 +17,4 @@ ctm:
   width: 4
   height: 4
   match-tiles: red_sand
+  placeholder: true

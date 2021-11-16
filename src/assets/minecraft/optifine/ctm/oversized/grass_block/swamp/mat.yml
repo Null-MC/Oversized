@@ -1,15 +1,20 @@
 color-tint: '#6A7039'
+color:
+  preview-tint: '#4C763C'
 height:
-  shift: -0.14
-  scale: 0.28
-  edge-fade-x: 1
-  edge-fade-y: 1
+  shift: -0.1
+  scale: 0.2
+  edge-fade-x: 2
+  edge-fade-y: 2
+  edge-fade-strength: 0.8
+normal:
+  noise: 3
+  method: sobel3
+  strength: 2
 occlusion:
   z-bias: 0.1
   z-scale: 14
-smooth:
-  scale: 0.02
 ctm:
-  type: repeat
-  count-x: 8
-  count-y: 4
+  method: of-repeat
+  width: 8
+  height: 4

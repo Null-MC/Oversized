@@ -1,8 +1,10 @@
 wrap-x: true
 wrap-y: true
 color-tint: '#BFB755'
-alpha:
+opacity:
   value: 255
+color:
+  preview-tint: '#c4ba89'
 height:
   shift: -0.2
   scale: 0.3
@@ -17,6 +19,6 @@ f0:
 porosity:
   value: 0.9
 ctm:
-  type: repeat
-  count-x: 4
-  count-y: 4
+  method: repeat
+  width: 4
+  height: 4

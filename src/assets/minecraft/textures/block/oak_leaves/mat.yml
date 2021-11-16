@@ -1,12 +1,16 @@
 wrap-x: false
 wrap-y: false
-model-type: file
-model-file: assets\minecraft\models\block\oak_leaves.json
+model: assets\minecraft\models\block\oak_leaves.json
 color:
   preview-tint: '#48B518'
 height:
-  value: 0
+  shift: -0.1
+  scale: 0.15
+  edge-fade-x: 0.01
+  edge-fade-y: 0.01
 normal:
+  noise: 6
+  method: sobel5
   strength: 2
 occlusion:
   scale: 0.2
@@ -17,4 +21,4 @@ smooth:
 f0:
   value: 0.017
 sss:
-  scale: 3
+  scale: 2.8

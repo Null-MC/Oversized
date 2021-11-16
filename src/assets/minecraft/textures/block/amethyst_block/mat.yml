@@ -1,0 +1,10 @@
+height:
+  scale: 0.8
+normal:
+  noise: 4
+occlusion:
+  scale: 0.5
+smooth:
+  scale: 0.85
+f0:
+  value: 0.16

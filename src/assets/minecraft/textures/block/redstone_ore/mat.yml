@@ -1,8 +1,8 @@
-alpha:
-  value: 255
 height:
-  scale: 0.2
-metal:
-  value: 0
+  shift: -0.2
+  scale: 0.5
+  auto-level: false
 f0:
   value: 0.04
+emissive:
+  scale: 0.6

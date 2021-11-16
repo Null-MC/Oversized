@@ -1,10 +1,12 @@
 wrap-x: false
 wrap-y: false
 color-tint: '#559833'
+color:
+  preview-tint: '#79C05A'
 smooth:
   scale: 0.5
 sss:
-  value: 0.71
+  value: 0.6
 parts:
 - name: tall_grass_top
   left: 0
