@@ -1,4 +1,5 @@
-alpha:
+blend-mode: transparent
+opacity:
   input:
     texture: alpha
     color: red
@@ -7,6 +8,6 @@ height:
 f0:
   value: 0.04
 ctm:
-  type: repeat
-  count-x: 2
-  count-y: 2
+  method: of-repeat
+  width: 2
+  height: 2

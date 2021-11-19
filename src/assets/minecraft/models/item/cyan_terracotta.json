@@ -1,7 +1,0 @@
-{
-  "parent": "block/terracotta_template",
-  "textures": {
-  	"side": "block/terracotta_side/cyan",
-  	"end": "block/terracotta_top/cyan"
-  }
-}

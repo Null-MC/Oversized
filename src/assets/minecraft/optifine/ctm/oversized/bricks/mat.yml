@@ -2,14 +2,20 @@ height:
   shift: -0.24
   scale: 0.5
 normal:
-  method: sobel-high
-  strength: 4
+  noise: 2
 occlusion:
   step-distance: 0.05
   z-bias: 1
   z-scale: 20
+smooth:
+  scale: 0.6
+f0:
+  value: 0.03
+porosity:
+  value: 0.6
 ctm:
-  type: repeat
-  count-x: 2
-  count-y: 2
+  method: of-repeat
+  width: 2
+  height: 2
+  match-tiles: bricks
   placeholder: true

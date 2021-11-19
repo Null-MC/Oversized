@@ -1,6 +1,0 @@
-{
-  "parent": "block/concrete_template",
-  "textures": {
-  	"all": "block/concrete/light_gray"
-  }
-}

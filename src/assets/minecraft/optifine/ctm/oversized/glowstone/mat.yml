@@ -1,0 +1,25 @@
+height:
+  shift: -0.4
+  scale: 0.6
+  auto-level: false
+  edge-fade-x: 1
+  edge-fade-y: 1
+normal:
+  noise: 4
+  method: sobel9
+occlusion:
+  step-distance: 0.1
+  z-scale: 28
+smooth:
+  shift: 0.7
+  scale: 0.4
+f0:
+  value: 0.04
+emissive:
+  scale: 0.2
+ctm:
+  method: of-repeat
+  width: 2
+  height: 2
+  match-tiles: glowstone
+  placeholder: true

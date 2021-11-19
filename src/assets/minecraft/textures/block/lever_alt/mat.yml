@@ -1,8 +1,6 @@
 wrap-x: false
 wrap-y: false
-model-file: lever
-height:
-  scale: 0.5
+model: lever
 normal:
   strength: 3
 occlusion:

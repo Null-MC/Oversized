@@ -9,7 +9,6 @@ height:
 normal:
   noise: 8
   curve-x: 90
-  radius-x: 0.5
   method: sobel5
   strength: 2
 occlusion:
