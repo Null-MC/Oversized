@@ -1,7 +1,7 @@
 wrap-x: true
 wrap-y: true
 height:
-  scale: 0.1
+  scale: 0.06
   auto-level: true
   edge-fade-x: 1
   edge-fade-y: 1

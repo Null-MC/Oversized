@@ -1,10 +1,14 @@
 wrap-x: false
-alpha:
+opacity:
   value: 255
 height:
   shift: -0.1
   scale: 0.25
+normal:
+  curve-x: 90
+  curve-y: 90
 f0:
   value: 0.04
 porosity:
   value: 0
+ctm: {}

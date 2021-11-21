@@ -1,7 +1,8 @@
-alpha:
+opacity:
   value: 255
 height:
-  shift: -0.16
+  shift: -0.15
+  scale: 2
   edge-fade-x: 2
   edge-fade-y: 2
 normal:
@@ -9,7 +10,7 @@ normal:
 f0:
   value: 0.027
 ctm:
-  type: repeat
-  count-x: 4
-  count-y: 4
+  method: of-repeat
+  width: 4
+  height: 4
   placeholder: true

@@ -1,6 +1,6 @@
 color-tint: '#9c5d41'
 height:
-  shift: -0.1
+  shift: -0.14
   edge-fade-x: 0.6
   edge-fade-y: 0.6
 smooth:
@@ -10,7 +10,7 @@ f0:
 porosity:
   value: 0.85
 ctm:
-  type: of-repeat
-  count-x: 4
-  count-y: 4
+  method: of-repeat
+  width: 4
+  height: 4
   match-tiles: terracotta white_terracotta orange_terracotta magenta_terracotta light_blue_terracotta yellow_terracotta lime_terracotta pink_terracotta gray_terracotta light_gray_terracotta cyan_terracotta purple_terracotta blue_terracotta brown_terracotta green_terracotta red_terracotta black_terracotta

@@ -5,7 +5,7 @@ color:
   preview-tint: 79C05A
 height:
   shift: -0.24
-  scale: 0.8
+  scale: 0.6
   edge-fade-x: 1
   edge-fade-y: 1
 occlusion:

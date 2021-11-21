@@ -1,5 +1,6 @@
 height:
   shift: -0.08
+  scale: 0.5
 occlusion:
   scale: 0.5
 smooth:
@@ -9,6 +10,6 @@ f0:
 sss:
   scale: 2
 ctm:
-  type: repeat
-  count-x: 2
-  count-y: 2
+  method: of-repeat
+  width: 2
+  height: 2

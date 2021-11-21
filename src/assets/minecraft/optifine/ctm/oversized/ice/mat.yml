@@ -4,7 +4,7 @@ opacity:
     color: red
 height:
   shift: -0.04
-  scale: 0.4
+  scale: 0.3
   edge-fade-x: 2
   edge-fade-y: 2
 occlusion:
@@ -18,6 +18,6 @@ f0:
 sss:
   value: 1
 ctm:
-  type: repeat
-  count-x: 4
-  count-y: 4
+  method: of-repeat
+  width: 4
+  height: 4

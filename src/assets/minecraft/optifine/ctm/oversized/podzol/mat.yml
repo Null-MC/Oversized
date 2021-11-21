@@ -1,8 +1,8 @@
-alpha:
+opacity:
   value: 255
 height:
   shift: -0.39
-  scale: 0.3
+  scale: 0.2
   edge-fade-x: 2
   edge-fade-y: 2
 occlusion:
@@ -12,6 +12,6 @@ smooth:
 porosity:
   value: 0.7
 ctm:
-  type: repeat
-  count-x: 2
-  count-y: 2
+  method: of-repeat
+  width: 2
+  height: 2

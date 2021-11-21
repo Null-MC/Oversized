@@ -1,6 +1,6 @@
 height:
   shift: -0.3
-  scale: 0.3
+  scale: 0.2
   auto-level: true
   edge-fade-x: 1
 f0:
@@ -8,7 +8,7 @@ f0:
 porosity:
   value: 0.2
 ctm:
-  method: repeat
+  method: of-repeat
   width: 2
   height: 2
   match-tiles: jungle_log

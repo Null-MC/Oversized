@@ -1,6 +1,6 @@
 height:
   shift: -0.07
-  scale: 0.3
+  scale: 0.2
   auto-level: true
   edge-fade-x: 1
   edge-fade-y: 1
@@ -10,7 +10,7 @@ f0:
 porosity:
   value: 0.8
 ctm:
-  method: repeat
+  method: of-repeat
   width: 4
   height: 2
   match-tiles: dark_oak_planks

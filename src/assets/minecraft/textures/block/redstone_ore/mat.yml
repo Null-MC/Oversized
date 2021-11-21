@@ -1,8 +1,13 @@
+color:
+  scale-red: 0.6
+  scale-green: 0.55
+  scale-blue: 0.5
 height:
   shift: -0.2
-  scale: 0.5
+  scale: 0.25
   auto-level: false
 f0:
   value: 0.04
 emissive:
   scale: 0.6
+ctm: {}

@@ -1,6 +1,6 @@
 height:
   shift: -0.1
-  scale: 0.5
+  scale: 0.2
   edge-fade-x: 0.5
   edge-fade-y: 0.5
 normal:
@@ -13,7 +13,7 @@ occlusion:
 smooth:
   scale: 0.8
 ctm:
-  type: repeat
-  count-x: 2
-  count-y: 2
+  method: of-repeat
+  width: 2
+  height: 2
   placeholder: true

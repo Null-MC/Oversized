@@ -1,0 +1,23 @@
+color:
+  scale-red: 0.8
+  scale-green: 0.8
+  scale-blue: 0.8
+height:
+  shift: -0.2
+  scale: 0.2
+  edge-fade-x: 0.4
+  edge-fade-y: 0.4
+occlusion:
+  step-distance: 0.05
+  z-bias: 0.4
+  z-scale: 3
+smooth:
+  scale: 0.8
+metal:
+  value: 234
+ctm:
+  method: of-repeat
+  width: 2
+  height: 2
+  match-tiles: cut_copper
+  placeholder: true

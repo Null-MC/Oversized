@@ -6,7 +6,7 @@ color:
   scale-green: 1.5
   scale-blue: 1.5
 height:
-  scale: 0.3
+  scale: 0.2
   edge-fade-y: 0.4
 normal:
   strength: 1
@@ -19,8 +19,8 @@ metal:
 porosity:
   value: 0
 ctm:
-  type: repeat
-  count-x: 4
-  count-y: 4
-  placeholder: true
+  method: of-repeat
+  width: 4
+  height: 4
   match-tiles: iron_block
+  placeholder: true

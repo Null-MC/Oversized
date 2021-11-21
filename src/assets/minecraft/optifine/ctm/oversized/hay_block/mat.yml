@@ -1,10 +1,10 @@
-alpha:
+opacity:
   value: 255
 height:
-  shift: -0.16
-  scale: 0.2
-  edge-fade-x: 0.4
-  edge-fade-y: 0.4
+  shift: -0.2
+  scale: 0.1
+  edge-fade-x: 1
+  edge-fade-y: 1
 occlusion:
   scale: 0.6
   z-bias: 0.5
@@ -14,6 +14,6 @@ smooth:
 sss:
   value: 0.24
 ctm:
-  type: repeat
-  count-x: 2
-  count-y: 2
+  method: of-repeat
+  width: 2
+  height: 2

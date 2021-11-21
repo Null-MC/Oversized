@@ -5,17 +5,18 @@ opacity:
   value: 255
 height:
   shift: -0.1
-  scale: 1.5
+  scale: 0.5
   edge-fade-x: 0.5
   edge-fade-y: 0.5
 normal:
-  noise: 6
-  method: sobel5
-  strength: 3
+  noise: 8
+  method: sobel9
 occlusion:
   z-scale: 8
 f0:
   value: 0.017
+sss:
+  scale: 0.5
 ctm:
   method: of-repeat
   width: 4

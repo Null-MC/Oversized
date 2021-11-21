@@ -1,0 +1,19 @@
+height:
+  shift: -0.4
+  scale: 0.2
+  edge-fade-x: 1
+  edge-fade-y: 1
+normal:
+  noise: 2
+smooth:
+  shift: -0.2
+f0:
+  value: 0.041
+porosity:
+  value: 0.4
+ctm:
+  method: of-repeat
+  width: 4
+  height: 4
+  match-tiles: basalt_side
+  placeholder: true

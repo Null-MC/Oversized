@@ -1,16 +1,17 @@
 wrap-x: false
 wrap-y: false
-alpha:
+opacity:
   value: 255
 height:
   shift: -0.2
-  scale: 0.8
+  scale: 0.4
 normal:
-  strength: 2
   curve-x: 90
   curve-y: 90
+  strength: 2
 occlusion:
   z-bias: 1
   z-scale: 10
 f0:
   value: 0.04
+ctm: {}

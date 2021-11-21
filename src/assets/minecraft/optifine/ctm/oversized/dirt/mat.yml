@@ -4,7 +4,7 @@ opacity:
   value: 255
 height:
   shift: -0.31
-  scale: 0.9
+  scale: 0.4
   edge-fade-x: 2
   edge-fade-y: 2
 occlusion:
@@ -16,7 +16,7 @@ smooth:
 f0:
   value: 0.03
 ctm:
-  type: repeat
-  count-x: 3
-  count-y: 3
+  method: of-repeat
+  width: 3
+  height: 3
   placeholder: true

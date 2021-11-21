@@ -3,6 +3,7 @@ opacity:
   value: 255
 height:
   shift: -0.3
+  scale: 0.5
 normal:
   curve-x: 90
   curve-y: 90
@@ -16,3 +17,4 @@ f0:
   value: 0.03
 porosity:
   value: 0
+ctm: {}

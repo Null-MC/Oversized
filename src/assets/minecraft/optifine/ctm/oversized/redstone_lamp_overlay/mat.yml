@@ -1,0 +1,9 @@
+height:
+  scale: 0.1
+smooth:
+  scale: 0.75
+f0:
+  value: 0.04
+ctm:
+  method: of-overlay-fixed
+  match-tiles: redstone_lamp

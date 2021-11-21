@@ -1,10 +1,10 @@
 opacity:
   value: 255
 height:
-  shift: -0.31
-  scale: 0.8
-  edge-fade-x: 2
-  edge-fade-y: 2
+  shift: -0.36
+  scale: 0.4
+  edge-fade-x: 1
+  edge-fade-y: 1
 occlusion:
   scale: 0.3
   z-bias: 0.5
@@ -16,6 +16,6 @@ f0:
 porosity:
   value: 0.08
 ctm:
-  type: repeat
-  count-x: 2
-  count-y: 2
+  method: of-repeat
+  width: 2
+  height: 2

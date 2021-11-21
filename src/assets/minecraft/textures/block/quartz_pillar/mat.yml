@@ -2,7 +2,7 @@ opacity:
   value: 255
 height:
   shift: -0.1
-  scale: 0.6
+  scale: 0.24
 occlusion:
   z-bias: 0.5
   z-scale: 12
@@ -10,3 +10,4 @@ f0:
   value: 0.06
 porosity:
   value: 0.3
+ctm: {}

@@ -1,0 +1,19 @@
+height:
+  shift: -0.06
+  scale: 0.6
+  edge-fade-x: 0.4
+  edge-fade-y: 0.4
+normal:
+  noise: 12
+smooth:
+  shift: 0.3
+f0:
+  value: 0.03
+sss:
+  scale: 0.4
+ctm:
+  method: of-repeat
+  width: 2
+  height: 2
+  match-tiles: amethyst_block
+  placeholder: true

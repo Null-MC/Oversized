@@ -1,6 +1,6 @@
 height:
-  shift: -0.28
-  scale: 0.5
+  shift: -0.26
+  scale: 0.3
   auto-level: true
   edge-fade-x: 2
   edge-fade-y: 2
@@ -13,7 +13,7 @@ smooth:
 f0:
   value: 0.05
 ctm:
-  method: repeat
+  method: of-repeat
   width: 4
   height: 4
   match-tiles: red_sand
