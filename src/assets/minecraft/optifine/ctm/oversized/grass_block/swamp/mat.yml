@@ -18,3 +18,4 @@ ctm:
   method: of-repeat
   width: 8
   height: 4
+  match-tiles: grass_block_top

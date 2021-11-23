@@ -1,8 +1,8 @@
-alpha:
-  value: 255
 f0:
   value: 0.08
 ctm:
-  type: repeat
+  type: of-repeat
   count-x: 2
   count-y: 2
+  match-tiles: polished_granite
+  placeholder: true

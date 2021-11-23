@@ -1,5 +1,3 @@
-alpha:
-  value: 255
 height:
   shift: -0.18
   scale: 0.7
@@ -11,6 +9,8 @@ occlusion:
 f0:
   value: 0.03
 ctm:
-  type: repeat
+  type: of-repeat
   count-x: 2
   count-y: 2
+  match-tiles: smooth_sandstone
+  placeholder: true

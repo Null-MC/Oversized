@@ -1,5 +1,3 @@
-opacity:
-  value: 255
 height:
   shift: -0.43
   scale: 0.25
@@ -19,3 +17,5 @@ ctm:
   method: of-repeat
   width: 2
   height: 2
+  match-tiles: stone_bricks mossy_stone_bricks cracked_stone_bricks
+  placeholder: true

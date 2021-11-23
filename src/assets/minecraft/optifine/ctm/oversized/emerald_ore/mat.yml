@@ -13,3 +13,5 @@ ctm:
   method: of-repeat
   width: 2
   height: 2
+  match-tiles: emerald_ore
+  placeholder: true

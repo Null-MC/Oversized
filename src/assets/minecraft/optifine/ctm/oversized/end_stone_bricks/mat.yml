@@ -12,5 +12,5 @@ ctm:
   method: of-repeat
   width: 2
   height: 2
-  match-tiles: end_bricks
+  match-tiles: end_stone_bricks
   placeholder: true

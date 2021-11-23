@@ -14,3 +14,4 @@ ctm:
   width: 4
   height: 2
   match-tiles: dark_oak_planks
+  placeholder: true

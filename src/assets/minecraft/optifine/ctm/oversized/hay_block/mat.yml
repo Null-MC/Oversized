@@ -1,5 +1,3 @@
-opacity:
-  value: 255
 height:
   shift: -0.2
   scale: 0.1
@@ -17,3 +15,5 @@ ctm:
   method: of-repeat
   width: 2
   height: 2
+  match-tiles: hay_block_side hay_block_top
+  placeholder: true

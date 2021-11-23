@@ -1,6 +1,4 @@
 color-tint: '#fefefd'
-opacity:
-  value: 255
 color:
   scale-red: 1.5
   scale-green: 1.5
@@ -16,8 +14,6 @@ occlusion:
   z-scale: 24
 metal:
   value: 230
-porosity:
-  value: 0
 ctm:
   method: of-repeat
   width: 4

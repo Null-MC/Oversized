@@ -1,6 +1,4 @@
 color-tint: '#79C05A'
-opacity:
-  value: 255
 color:
   preview-tint: 79C05A
 height:
@@ -19,3 +17,4 @@ ctm:
   method: of-repeat
   width: 4
   height: 4
+  match-tiles: grass_block_top

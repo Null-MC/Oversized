@@ -1,5 +1,3 @@
-opacity:
-  value: 255
 height:
   shift: -0.26
   scale: 0.01
@@ -17,6 +15,8 @@ ctm:
   method: of-repeat
   width: 4
   height: 4
+  match-tiles: smooth_stone smooth_stone_slab_side
+  placeholder: true
 filters:
 - name: default
   tile: true

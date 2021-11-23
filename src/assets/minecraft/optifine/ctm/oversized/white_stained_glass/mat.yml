@@ -1,8 +1,4 @@
 blend-mode: transparent
-opacity:
-  input:
-    texture: alpha
-    color: red
 height:
   scale: 0.3
 f0:
@@ -11,3 +7,5 @@ ctm:
   method: of-repeat
   width: 2
   height: 2
+  match-tiles: white_stained_glass white_stained_glass_pane
+  placeholder: true

@@ -12,6 +12,8 @@ f0:
 porosity:
   value: 0.24
 ctm:
-  type: repeat
+  type: of-repeat
   count-x: 2
   count-y: 2
+  match-tiles: dark_oak_log
+  placeholder: true

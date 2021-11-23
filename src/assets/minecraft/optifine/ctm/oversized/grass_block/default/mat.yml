@@ -1,8 +1,4 @@
-wrap-x: true
-wrap-y: true
 color-tint: '#91BD59'
-opacity:
-  value: 255
 height:
   shift: -0.1
   scale: 0.5
@@ -21,3 +17,4 @@ ctm:
   method: of-repeat
   width: 4
   height: 4
+  match-tiles: grass_block_top

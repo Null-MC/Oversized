@@ -1,5 +1,3 @@
-alpha:
-  value: 255
 height:
   shift: -0.1
   edge-fade-x: 2
@@ -11,6 +9,8 @@ f0:
 porosity:
   value: 0.16
 ctm:
-  type: repeat
+  type: of-repeat
   count-x: 4
   count-y: 4
+  match-tiles: diorite
+  placeholder: true

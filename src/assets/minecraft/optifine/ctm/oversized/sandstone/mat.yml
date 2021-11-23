@@ -14,3 +14,5 @@ ctm:
   method: of-repeat
   width: 4
   height: 4
+  match-tiles: sandstone
+  placeholder: true

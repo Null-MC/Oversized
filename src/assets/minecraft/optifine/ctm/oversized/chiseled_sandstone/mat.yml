@@ -7,7 +7,8 @@ f0:
 porosity:
   value: 0.9
 ctm:
-  type: repeat
+  type: of-repeat
   count-x: 2
   count-y: 2
   placeholder: true
+  match-tiles: chiseled_sandstone

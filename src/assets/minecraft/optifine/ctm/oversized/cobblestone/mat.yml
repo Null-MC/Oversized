@@ -16,3 +16,4 @@ ctm:
   width: 2
   height: 2
   placeholder: true
+  match-tiles: cobblestone mossy_cobblestone

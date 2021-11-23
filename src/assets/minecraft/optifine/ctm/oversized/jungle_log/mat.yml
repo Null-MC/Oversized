@@ -12,6 +12,7 @@ ctm:
   width: 2
   height: 2
   match-tiles: jungle_log
+  placeholder: true
 filters:
 - left: 0.0
   top: 0.0

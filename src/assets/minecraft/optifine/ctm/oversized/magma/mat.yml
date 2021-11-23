@@ -1,26 +1,25 @@
-opacity:
-  value: 255
 height:
-  shift: -0.3
-  scale: 0.5
+  shift: -0.22
+  scale: 0.7
   edge-fade-x: 1
   edge-fade-y: 1
 normal:
-  method: sobel3
-  strength: 8
+  noise: 6
+  method: sobel9
+  strength: 3
 occlusion:
-  z-bias: 0.3
-  z-scale: 8
+  step-distance: 0.04
+  z-bias: 0.2
+  z-scale: 20
 smooth:
   scale: 2
 f0:
   value: 0.03
-porosity:
-  value: 0
 emissive:
   scale: 0.9
 ctm:
   method: of-repeat
   width: 4
   height: 4
+  match-tiles: magma
   placeholder: true

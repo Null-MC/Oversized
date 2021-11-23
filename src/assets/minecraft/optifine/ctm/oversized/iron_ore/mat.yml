@@ -17,3 +17,4 @@ ctm:
   width: 2
   height: 2
   placeholder: true
+  match-tiles: iron_ore

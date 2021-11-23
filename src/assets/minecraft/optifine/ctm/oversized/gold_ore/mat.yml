@@ -1,5 +1,3 @@
-opacity:
-  value: 255
 height:
   shift: -0.24
   scale: 0.2
@@ -11,10 +9,9 @@ occlusion:
   step-distance: 0.05
   z-bias: 0
   z-scale: 60
-porosity:
-  value: 0
 ctm:
   method: of-repeat
   width: 2
   height: 2
   placeholder: true
+  match-tiles: gold_ore nether_gold_ore

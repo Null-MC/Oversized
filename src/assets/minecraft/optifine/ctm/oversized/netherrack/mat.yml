@@ -1,5 +1,3 @@
-opacity:
-  value: 255
 height:
   shift: -0.15
   scale: 2
@@ -14,3 +12,4 @@ ctm:
   width: 4
   height: 4
   placeholder: true
+  match-tiles: netherrack

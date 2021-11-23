@@ -1,17 +1,14 @@
 edition: Java
-format: 6
+format: 7
 description: CTM Expirement Pack
 tags: OldPbr 64x
 encoding:
   format: old-pbr
   sampler: average
-  alpha: {}
-  diffuse-red: {}
-  diffuse-green: {}
-  diffuse-blue: {}
-  albedo-red: {}
-  albedo-green: {}
-  albedo-blue: {}
+  opacity: {}
+  color-red: {}
+  color-green: {}
+  color-blue: {}
   height:
     max-value: 2
   occlusion: {}
