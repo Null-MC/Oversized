@@ -1,0 +1,14 @@
+color:
+  value-red: 250
+  value-green: 250
+  value-blue: 250
+height:
+  scale: 1.2
+  auto-level: false
+normal:
+  method: sobel9
+smooth:
+  value: 0.65
+metal:
+  value: 230
+ctm: {}

@@ -5,9 +5,11 @@ rough:
   scale: 2
 f0:
   value: 0.035
+sss:
+  value: 0.06
 ctm:
-  type: of-repeat
-  count-x: 2
-  count-y: 2
+  method: of-repeat
+  width: 2
+  height: 2
   match-tiles: quartz_block_top quartz_block_bottom quartz_block_side
   placeholder: true

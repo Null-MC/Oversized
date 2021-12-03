@@ -1,0 +1,15 @@
+height:
+  shift: -0.3
+  scale: 0.1
+  edge-fade-x: 1
+  edge-fade-y: 1
+smooth:
+  scale: 0.9
+f0:
+  value: 0.053
+ctm:
+  method: of-repeat
+  width: 2
+  height: 2
+  match-tiles: yellow_glazed_terracotta
+  placeholder: true

@@ -1,0 +1,13 @@
+height:
+  scale: 0.8
+  auto-level: true
+smooth:
+  scale: 1.1
+f0:
+  value: 0.087
+ctm:
+  method: of-repeat
+  width: 2
+  height: 2
+  match-tiles: purpur_block
+  placeholder: true

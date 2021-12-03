@@ -1,0 +1,19 @@
+height:
+  shift: -0.48
+  scale: 0.15
+  auto-level: false
+  edge-fade-x: 0.7
+  edge-fade-y: 0.7
+normal:
+  noise: 3
+occlusion:
+  step-distance: 0.05
+  z-bias: 0.2
+f0:
+  value: 0.03
+ctm:
+  method: of-repeat
+  width: 2
+  height: 2
+  match-tiles: iron_bars
+  placeholder: true

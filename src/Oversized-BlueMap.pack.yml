@@ -1,0 +1,34 @@
+edition: java
+format: 7
+description: CTM Expirement Pack
+tags: BlueMap
+encoding:
+  format: color
+  sampler: nearest
+  enable-palette: true
+  opacity: {}
+  color-red: {}
+  color-green: {}
+  color-blue: {}
+  height:
+    sampler: average
+  occlusion: {}
+  normal-x:
+    sampler: average
+  normal-y:
+    sampler: average
+  normal-z:
+    sampler: average
+  specular: {}
+  smooth: {}
+  rough: {}
+  metal: {}
+  f0: {}
+  porosity: {}
+  sss: {}
+  emissive: {}
+block-texture-size: 64
+item-texture-size: 64
+texture-scale: 0.125
+auto-generate-occlusion: false
+bake-occlusion-to-color: true

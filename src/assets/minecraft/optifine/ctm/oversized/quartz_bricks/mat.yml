@@ -1,0 +1,18 @@
+height:
+  value: 0
+  auto-level: false
+normal:
+  noise: 0.8
+smooth:
+  shift: -0.2
+  scale: 1.8
+f0:
+  value: 0.05
+sss:
+  value: 0.06
+ctm:
+  method: of-repeat
+  width: 2
+  height: 2
+  match-tiles: quartz_bricks
+  placeholder: true

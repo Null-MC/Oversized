@@ -1,7 +1,7 @@
 color:
-  scale-red: 0.8
-  scale-green: 0.8
-  scale-blue: 0.8
+  value-red: 207
+  value-green: 134
+  value-blue: 108
 height:
   shift: -0.2
   scale: 0.2

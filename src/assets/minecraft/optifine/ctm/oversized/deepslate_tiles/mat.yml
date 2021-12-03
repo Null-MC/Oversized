@@ -1,0 +1,12 @@
+height:
+  shift: -0.5
+  scale: 0.8
+  auto-level: false
+  edge-fade-x: 1
+  edge-fade-y: 1
+ctm:
+  method: of-repeat
+  width: 4
+  height: 4
+  match-tiles: deepslate_tiles
+  placeholder: true

@@ -1,18 +1,18 @@
 wrap-x: false
 wrap-y: true
-alpha:
-  input:
-    texture: alpha
-    color: red
-    sampler: nearest
 height:
-  value: 0
+  scale: 0
 normal:
-  strength: 2
+  noise: 8
+  method: sobel3
+  strength: 3
 occlusion:
-  z-bias: 0.8
-  z-scale: 5
+  step-distance: 0.04
+  z-bias: 0.2
+  z-scale: 8
 smooth:
-  scale: 0.5
-porosity:
-  value: 0
+  shift: -0.4
+  scale: 0.9
+metal:
+  value: 230
+ctm: {}
